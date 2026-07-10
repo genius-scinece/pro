@@ -1,0 +1,554 @@
+GENIUS SCIENCE — TẬP GIÁO ÁN KHOA HỌC (5 tuổi)
+プログラム講座集
+
+TRIẾT LÝ CHƯƠNG TRÌNH / プログラム理念
+【VN】Qua lăng kính khoa học, trẻ hiểu sâu về đất nước Việt Nam, nuôi dưỡng thói quen
+  tự hỏi "Tại sao?" trước mọi hiện tượng. Từ tình yêu và niềm tự hào quê hương,
+  trẻ lớn lên thành những công dân toàn cầu muốn kể với bạn bè năm châu rằng
+  "Việt Nam là một đất nước tuyệt vời!".
+【JP】Scienceの視点でベトナムを深く知り、「Tại sao?(なぜ?)」と考える習慣で愛国心を育て、
+  「ベトナムはすごい国だと外国の友達にも教えたい」という世界で活躍する子を育てる。
+
+
+【MỤC LỤC / 目次】
+・P1. Nổi hay chìm? — Bí mật của dòng nước
+・P2. Ánh sáng và chiếc bóng tinh nghịch
+・P3. Sức mạnh của gió — Chong chóng quay tròn
+・C1. Tan biến đi đâu? — Muối và đường trong nước
+・C2. Màu nước kỳ diệu từ hoa đậu biếc
+・B1. Hạt gạo nhỏ nảy mầm xanh
+・B2. Bí mật của lá sen
+・B3. Hành trình của hạt cà phê
+・G1. Núi đá kể chuyện — Đá vôi Vịnh Hạ Long
+・G2. Giọt nước đi du lịch — Mưa từ đâu đến?
+
+
+【DANH SÁCH BÀI HỌC / 講座一覧】
+・P1. Nổi hay chìm? — Bí mật của dòng nước（浮く？沈む？水のふしぎ｜物理｜オフライン）
+・P2. Ánh sáng và chiếc bóng tinh nghịch（光と影のかくれんぼ｜物理｜オフライン）
+・P3. Sức mạnh của gió — Chong chóng quay tròn（風の力であそぼう｜物理｜オフライン）
+・C1. Tan biến đi đâu? — Muối và đường trong nước（とけたらどこへ？塩と砂糖のふしぎ｜化学｜オフライン）
+・C2. Màu nước kỳ diệu từ hoa đậu biếc（魔法の色水〜バタフライピー〜｜化学｜オフライン）
+・B1. Hạt gạo nhỏ nảy mầm xanh（お米の芽が出た！｜生物｜オフライン）
+・B2. Bí mật của lá sen（蓮の葉のひみつ｜生物｜オフライン）
+・B3. Hành trình của hạt cà phê（コーヒー豆の大ぼうけん｜生物｜オンライン）
+・G1. Núi đá kể chuyện — Đá vôi Vịnh Hạ Long（石はおしゃべり〜ハロン湾の岩〜｜地学｜オフライン）
+・G2. Giọt nước đi du lịch — Mưa từ đâu đến?（水のたび〜あめはどこから？〜｜地学｜オンライン）
+
+
+────────────────────────────
+P1. Nổi hay chìm? — Bí mật của dòng nước
+（浮く？沈む？水のふしぎ｜物理｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ tự đặt câu hỏi "Tại sao quả dừa nổi mà viên sỏi lại chìm?", học cách
+    quan sát, dự đoán và kiểm chứng bằng chính đôi tay mình. Qua đó nuôi dưỡng
+    thói quen suy nghĩ "Tại sao?" trước mọi hiện tượng quanh em.
+  【JP】「ココナッツは浮くのに石は沈むのはなぜ？」と自分で問いを立て、
+    予想→実験→確認の流れを体験する。身の回りの現象に「Tại sao?」と
+    問いかける習慣を育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Chuẩn bị một chậu nước trong thật to. Cho trẻ lần lượt thả những vật quen
+    thuộc: quả dừa, quả thanh long, viên sỏi, thìa gỗ, chai nhựa rỗng… Trước khi
+    thả, cả lớp cùng dự đoán "nổi hay chìm?" và giơ tay biểu quyết. Thả xong,
+    cùng xác nhận kết quả rồi xếp các vật thành hai nhóm "nổi" và "chìm".
+    Cuối giờ, cô gợi ý để trẻ tự tìm ra điểm chung của những vật nổi.
+  【JP】透明の大きな水槽を用意し、身近なもの(ココナッツ、ドラゴンフルーツ、小石、
+    木のスプーン、空のペットボトル等)を順番に入れる。入れる前に全員で
+    「浮く？沈む？」を予想して挙手→実験→結果を確認し「浮く／沈む」の
+    2グループに分類する。最後に浮くものの共通点を子ども自身に気づかせる。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Trước buổi học, nhờ phụ huynh cùng trẻ chọn một vật nhỏ ở nhà mà con muốn
+    thử "nổi hay chìm" và mang đến lớp.
+  【JP】事前に保護者と一緒に「浮くか沈むか試してみたいもの」を家から1つ選んで
+    持参してもらう。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Chậu nước trong loại lớn, khăn lau, quả dừa, quả thanh long, sỏi, thìa gỗ,
+    chai nhựa rỗng, khay phân loại, thẻ tranh "nổi / chìm".
+  【JP】透明の大型水槽、タオル、ココナッツ、ドラゴンフルーツ、小石、木のスプーン、
+    空ペットボトル、分類用トレー、「浮く／沈む」絵カード。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Cho trẻ xem ảnh chợ nổi Cái Răng trên sông Mê Kông và hỏi: "Vì sao thuyền
+    chở đầy trái cây mà vẫn nổi được nhỉ?". Kể chuyện quả dừa Bến Tre: vì dừa nổi
+    trên nước nên có thể trôi theo dòng sông đến vùng đất mới và mọc thành cây —
+    đó là cách cây dừa "đi du lịch" đấy!
+  【JP】メコン川のカイラン水上マーケットの写真を見せ「果物を山ほど積んだ船が
+    なぜ浮くの？」と問いかける。ベンチェー省のココナッツは水に浮くから
+    川を旅して新しい土地で芽を出す、という「ココナッツの旅」の話につなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Rót nước và lau nước đổ rèn kỹ năng sinh hoạt hằng ngày; so sánh nặng–nhẹ
+    bằng tay là bài học giác quan; từ mới "nổi–chìm, nặng–nhẹ" làm giàu ngôn ngữ;
+    đếm và chia nhóm đồ vật là toán học; câu chuyện chợ nổi nuôi dưỡng tình yêu
+    quê hương và tinh thần khám phá.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 水を運ぶ・こぼれた水を拭く / 感覚: 重い・軽いを手で比べる /
+    言語: 「浮く・沈む・重い・軽い」の語彙 / 算数: 浮いた物と沈んだ物を数えて
+    2群に分類 / 文化・探求: 水上マーケットとココナッツの旅の物語。
+────────────────────────────
+
+────────────────────────────
+P2. Ánh sáng và chiếc bóng tinh nghịch
+（光と影のかくれんぼ｜物理｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ khám phá mối quan hệ giữa ánh sáng và bóng: bóng xuất hiện khi ánh sáng
+    bị chặn lại, và bóng to lên hay nhỏ đi theo khoảng cách. Trẻ học cách quan sát
+    kỹ và diễn đạt điều mình thấy bằng lời.
+  【JP】影は光がさえぎられたときにでき、距離によって大きさが変わることを発見する。
+    よく観察し、見たことを自分の言葉で表現する力を育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Làm tối phòng học, dùng đèn pin chiếu lên tường. Trẻ đưa bàn tay và đồ chơi
+    vào giữa đèn và tường để tạo bóng: chú chim, chú chó… Thử đưa tay lại gần đèn
+    rồi ra xa — bóng thay đổi thế nào? Cuối giờ, cả lớp cùng diễn kịch bóng
+    "Chú Cuội ngồi gốc cây đa" bằng bàn tay và hình cắt giấy.
+  【JP】保育室を暗くし、懐中電灯を壁に向ける。光と壁の間に手やおもちゃを入れて
+    影絵(鳥・犬など)を作る。手を光に近づけたり遠ざけたりして影の大きさの変化を
+    観察する。最後に手影絵と切り紙で、月の伝説「ガジュマルの木の下のクオイ君
+    (Chú Cuội)」の影絵劇をみんなで演じる。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cùng trẻ quan sát bóng của con dưới nắng sáng và nắng chiều,
+    chụp một tấm ảnh mang đến lớp: "Bóng của con lúc nào dài hơn?".
+  【JP】保護者と一緒に朝と夕方の自分の影を観察し、写真を1枚撮って持参してもらう。
+    「影が長いのはいつ？」という問いを持たせる。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Đèn pin (2–3 chiếc), rèm che tối phòng, tấm vải trắng làm màn, hình cắt giấy
+    nhân vật Chú Cuội và cây đa, que gỗ, băng dính.
+  【JP】懐中電灯2〜3本、遮光カーテン、スクリーン用の白い布、クオイ君とガジュマルの
+    切り紙人形、木の棒、テープ。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Kể về đêm Trung thu: trẻ em Việt Nam rước đèn lồng, ánh nến lung linh tạo nên
+    những chiếc bóng nhảy múa. Đèn lồng Hội An nổi tiếng khắp thế giới cũng là
+    "nghệ thuật của ánh sáng". Và trên cung trăng, người Việt nhìn thấy bóng
+    Chú Cuội ngồi dưới gốc cây đa!
+  【JP】中秋節(Tết Trung Thu)のランタン行列と、世界的に有名なホイアンのランタンを
+    「光のアート」として紹介。ベトナムでは月の模様を「ガジュマルの木の下に座る
+    クオイ君の影」と見る伝説につなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Tự bật tắt đèn và giữ gìn dụng cụ rèn tính tự lập; phân biệt sáng–tối là bài
+    học giác quan; từ "bóng, ánh sáng, mờ, rõ" làm giàu ngôn ngữ; so sánh bóng
+    to–nhỏ, dài–ngắn là toán học; truyền thuyết Chú Cuội và đèn lồng Hội An là
+    bài học văn hóa đầy tự hào.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 電灯の点け消し・道具を丁寧に扱う / 感覚: 明暗の識別 /
+    言語: 「影・光・ぼんやり・くっきり」の語彙 / 算数: 影の大小・長短の比較 /
+    文化・探求: クオイ君の月伝説・ホイアンのランタン・中秋節。
+────────────────────────────
+
+────────────────────────────
+P3. Sức mạnh của gió — Chong chóng quay tròn
+（風の力であそぼう｜物理｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ cảm nhận rằng gió tuy không nhìn thấy nhưng có sức mạnh làm chong chóng
+    quay và thuyền chạy. Trẻ trải nghiệm niềm vui tự tay làm đồ chơi khoa học và
+    tự hỏi "Tại sao gió làm được như vậy?".
+  【JP】風は目に見えないのに風車を回し船を走らせる力があることを体感する。
+    自分の手で科学おもちゃを作る喜びと「なぜ風にそんな力が？」という
+    問いを育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Mỗi trẻ tự gấp một chiếc chong chóng giấy — món đồ chơi dân gian quen thuộc
+    của Việt Nam. Chạy thử ngoài sân: chạy nhanh thì chong chóng quay thế nào?
+    Tiếp theo, thả thuyền giấy vào khay nước dài và thi "đua thuyền bằng hơi thổi":
+    thổi nhẹ, thổi mạnh, thổi bằng ống hút — thuyền nào về đích trước?
+  【JP】一人ひとりが紙の風車(チョンチョン=ベトナムの伝統的な folk toy)を作る。
+    園庭で走って回り方の変化を確かめる。次に細長い水トレーに紙の船を浮かべ、
+    息で吹いて進める「息のボートレース」。弱く吹く・強く吹く・ストローで吹く、
+    で速さの違いを比べる。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cùng trẻ tìm "dấu vết của gió" trên đường đi học: lá bay,
+    cờ tung bay, quần áo phơi đung đưa… và kể lại cho cô nghe.
+  【JP】登園の道で「風の足あと」(舞う葉、はためく旗、揺れる洗濯物など)を
+    保護者と探して、先生に報告してもらう。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Giấy màu vuông, que tre, ghim, kéo, khay nước dài, giấy gấp thuyền,
+    ống hút, khăn lau.
+  【JP】正方形の色紙、竹ひご、ピン、はさみ、細長い水トレー、船を折る紙、
+    ストロー、タオル。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Chong chóng là món đồ chơi tuổi thơ của bao thế hệ người Việt. Cho trẻ xem
+    ảnh những cánh buồm nâu trên Vịnh Hạ Long và cánh đồng điện gió ở Bạc Liêu,
+    Ninh Thuận: "Người Việt Nam mình biết mượn sức gió để đi thuyền và làm ra
+    điện đấy — giỏi chưa nào!".
+  【JP】チョンチョン(風車)は世代を超えたベトナムの伝統玩具。ハロン湾の帆船と
+    バクリエウ省・ニントゥアン省の風力発電の写真を見せ、「ベトナムの人は
+    風の力を借りて船を走らせ、電気まで作っている」とつなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Gấp giấy, cầm kéo an toàn rèn đôi tay khéo léo; cảm nhận gió mạnh–nhẹ trên da
+    là bài học giác quan; từ "gió, thổi, quay, cánh buồm" làm giàu ngôn ngữ; đếm số
+    vòng quay và so sánh nhanh–chậm là toán học; đồ chơi dân gian và điện gió Việt
+    Nam là bài học văn hóa – khám phá.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 紙を折る・はさみを安全に使う / 感覚: 風の強弱を肌で感じる /
+    言語: 「風・吹く・回る・帆」の語彙 / 算数: 回転数を数える・速い遅いの比較 /
+    文化・探求: 伝統玩具チョンチョンと風力発電、ハロン湾の帆船。
+────────────────────────────
+
+────────────────────────────
+C1. Tan biến đi đâu? — Muối và đường trong nước
+（とけたらどこへ？塩と砂糖のふしぎ｜化学｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ khám phá hiện tượng hòa tan: muối và đường "biến mất" trong nước nhưng
+    vẫn còn đó — vì nước trở nên mặn và ngọt! Trẻ học cách kiểm chứng bằng nhiều
+    giác quan và biết rằng có những thứ tan được, có những thứ không.
+  【JP】溶解の発見: 塩と砂糖は水の中で「消えた」ように見えても、水がしょっぱく・
+    甘くなることで「まだそこにいる」と分かる。複数の感覚で確かめる方法と、
+    溶けるもの・溶けないものがあることを学ぶ。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Mỗi nhóm có 3 cốc nước trong. Cho muối vào cốc 1, đường vào cốc 2, cát vào
+    cốc 3, khuấy đều và quan sát: cái gì biến mất, cái gì còn lại? Nếm thử cốc 1
+    và cốc 2 (một giọt nhỏ): "Muối đi đâu rồi?" — "À, muối vẫn ở trong nước!".
+    Sau đó cô làm thí nghiệm "gọi muối quay về": đổ nước muối ra đĩa, phơi nắng
+    vài ngày để cả lớp quan sát muối kết tinh trở lại.
+  【JP】各グループに透明な水入りコップを3つ。コップ1に塩、2に砂糖、3に砂を入れて
+    かき混ぜ、「消えたもの・残ったもの」を観察。コップ1と2をひと口味見して
+    「塩はどこへ？」→「水の中にいた！」と確認。仕上げに先生が「塩を呼び戻す」
+    実験: 塩水を皿に広げて数日天日干しし、塩の結晶が戻る様子をクラスで観察する。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cho trẻ quan sát mẹ nêm canh ở nhà: "Muối bỏ vào canh có còn
+    nhìn thấy không? Vị canh thế nào?".
+  【JP】家庭でスープの味付けを観察してもらう。「入れた塩は見える？スープの味は
+    どうなった？」という気づきを持たせる。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Cốc nhựa trong, thìa khuấy, muối, đường, cát sạch, nước ấm, đĩa nông để
+    phơi nắng, ống nhỏ giọt để nếm thử an toàn.
+  【JP】透明プラコップ、かき混ぜ用スプーン、塩、砂糖、清潔な砂、ぬるま湯、
+    天日干し用の浅皿、安全な味見用スポイト。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Cho trẻ xem ảnh cánh đồng muối trắng lấp lánh ở Ninh Thuận, Hòn Khói: các cô
+    chú diêm dân dẫn nước biển vào ruộng, phơi nắng cho nước bay đi, muối ở lại.
+    Ly nước mía ngọt lịm ở góc phố cũng là "đường tan trong nước" đấy! Muối, nước
+    mắm, nước mía — khoa học hòa tan ở ngay trong bữa ăn Việt Nam.
+  【JP】ニントゥアン省・ホンコイの真っ白な塩田の写真を見せる。塩職人が海水を田に
+    引き、天日で水を飛ばして塩を採る=クラス実験と同じ原理。街角のサトウキビ
+    ジュース(ヌックミア)も「砂糖が水に溶けたもの」。塩・ヌックマム・ヌックミアと、
+    ベトナムの食卓は溶解の科学でつながっている。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Tự rót nước, khuấy nhẹ nhàng rèn kỹ năng sinh hoạt; nếm mặn–ngọt là bài học
+    giác quan vị giác; từ "tan, khuấy, kết tinh" làm giàu ngôn ngữ; đong đếm số thìa
+    muối đường là toán học; nghề làm muối truyền thống là niềm tự hào quê hương.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 水を注ぐ・静かにかき混ぜる / 感覚: 塩味・甘味の味覚体験 /
+    言語: 「溶ける・混ぜる・結晶」の語彙 / 算数: スプーン何杯かを数える(量の感覚) /
+    文化・探求: 伝統の塩田とベトナムの食文化(ヌックマム・ヌックミア)。
+────────────────────────────
+
+────────────────────────────
+C2. Màu nước kỳ diệu từ hoa đậu biếc
+（魔法の色水〜バタフライピー〜｜化学｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ kinh ngạc trước "phép màu" đổi màu của trà hoa đậu biếc khi vắt chanh
+    vào, và hiểu rằng thiên nhiên Việt Nam là một "hộp màu" khổng lồ. Nuôi dưỡng
+    sự tò mò: "Tại sao màu xanh lại biến thành màu tím?".
+  【JP】バタフライピー(蝶豆花)のお茶にライムを搾ると色が変わる「魔法」に驚き、
+    ベトナムの自然が巨大な「絵の具箱」であることを知る。「なぜ青が紫に
+    変わるの？」という好奇心を育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Ngâm hoa đậu biếc khô vào nước ấm để có "nước thần màu xanh". Mỗi trẻ một
+    cốc nhỏ: nhỏ từng giọt nước cốt chanh vào và reo lên khi màu chuyển từ xanh
+    sang tím rồi hồng! Thử tiếp với nước vo gạo, nước đường — màu có đổi không?
+    Cuối giờ, dùng các cốc màu xếp thành "cầu vồng của lớp mình" và cùng chụp ảnh.
+  【JP】乾燥バタフライピーをぬるま湯に浸して「青い魔法の水」を作る。一人1カップに
+    ライム汁を1滴ずつ落とし、青→紫→ピンクへの変化を体験。米のとぎ汁や砂糖水
+    でも試して「変わる？変わらない？」を比較。最後に色のカップを並べて
+    「クラスの虹」を作り記念撮影。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cùng trẻ tìm ở chợ hoặc bếp nhà mình những "màu của thiên
+    nhiên": lá dứa xanh, gấc đỏ cam, nghệ vàng… và mang một thứ đến lớp nếu có thể.
+  【JP】市場や家の台所で「自然の色」(パンダンリーフの緑、ガックの赤橙、
+    ターメリックの黄など)を保護者と探し、可能なら1つ持参してもらう。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Hoa đậu biếc khô, nước ấm, chanh hoặc tắc, cốc nhựa trong nhỏ, ống nhỏ giọt,
+    thìa, khay, khăn lau, tạp dề cho trẻ.
+  【JP】乾燥バタフライピー、ぬるま湯、ライムまたはカラマンシー、小さい透明プラコップ、
+    スポイト、スプーン、トレー、タオル、子ども用エプロン。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Hoa đậu biếc mọc ở khắp hàng rào làng quê Việt Nam. Người Việt từ xưa đã là
+    "nhà hóa học tài ba": xôi ngũ sắc của đồng bào vùng cao nhuộm bằng lá cây rừng,
+    bánh da lợn xanh màu lá dứa, xôi gấc đỏ may mắn ngày Tết — tất cả đều là màu
+    từ thiên nhiên, không cần phẩm màu!
+  【JP】バタフライピーはベトナムの村の垣根に普通に咲く花。山岳民族の五色おこわ
+    (xôi ngũ sắc)、パンダンリーフ色のバインザーロン、テトの赤いガックおこわなど、
+    ベトナム人は昔から天然色素を使いこなす「名化学者」だったことを伝える。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Dùng ống nhỏ giọt từng giọt một rèn sự khéo léo và tập trung; phân biệt sắc độ
+    xanh–tím–hồng là bài học giác quan; từ "đổi màu, nhạt, đậm" làm giàu ngôn ngữ;
+    đếm số giọt chanh là toán học; ẩm thực ngũ sắc Việt Nam là bài học văn hóa.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: スポイトで1滴ずつ落とす(手先の調整と集中) / 感覚: 青・紫・ピンクの
+    色相の段階を識別 / 言語: 「色が変わる・濃い・薄い」の語彙 / 算数: ライムの滴数を
+    数える(1対1対応) / 文化・探求: 五色おこわ等の天然色素の食文化。
+────────────────────────────
+
+────────────────────────────
+B1. Hạt gạo nhỏ nảy mầm xanh
+（お米の芽が出た！｜生物｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ tận mắt thấy hạt thóc bé xíu nảy mầm thành cây mạ xanh, hiểu rằng hạt gạo
+    trong bát cơm mỗi ngày là một "sinh mệnh". Nuôi dưỡng lòng biết ơn cây lúa,
+    bác nông dân và thói quen chăm sóc cây mỗi ngày.
+  【JP】小さな籾(もみ)が発芽して緑の苗になる過程を自分の目で見て、毎日の
+    ごはんの一粒が「いのち」であることを知る。稲と農家さんへの感謝と、
+    毎日世話をする習慣を育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Trẻ nhận hạt thóc đã ngâm nước (chuẩn bị trước 2 ngày), đặt lên bông ẩm trong
+    hộp trong suốt có dán tên mình. Mỗi sáng trẻ tưới nước, quan sát và "vẽ nhật ký
+    mầm cây": ngày 1 hạt nứt vỏ, ngày 3 rễ trắng, ngày 5 lá xanh… So sánh hộp đặt
+    nơi có nắng và hộp trong bóng tối — bên nào lớn nhanh hơn? Tại sao?
+  【JP】2日前から浸水させた籾を、名前を貼った透明容器の湿らせた脱脂綿にのせる。
+    毎朝水やりと観察をし「芽の日記」を絵で記録(1日目:殻が割れる、3日目:白い根、
+    5日目:緑の葉…)。日なたと暗所の容器を比較し「どちらが早く育つ？なぜ？」を
+    考える。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Giáo viên ngâm hạt thóc vào nước ấm 2 ngày trước buổi học. Nhờ phụ huynh cho
+    trẻ xem và sờ hạt gạo ở nhà: "Hạt gạo với hạt thóc khác nhau chỗ nào nhỉ?".
+  【JP】先生は2日前に籾をぬるま湯に浸けておく。家庭では白米に触れさせ
+    「白いお米と籾はどこが違う？」という問いを持たせておく。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Hạt thóc giống, hộp nhựa trong, bông gòn, bình tưới nhỏ, nhãn tên, sổ nhật
+    ký mầm cây, bút màu, một bó mạ non thật (nếu có).
+  【JP】種籾、透明プラ容器、脱脂綿、小さいじょうろ、名前シール、観察日記帳、
+    色鉛筆、本物の若苗一束(入手できれば)。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Đồng bằng sông Cửu Long là "vựa lúa" nuôi cả nước, và gạo Việt Nam bay đi
+    khắp thế giới — Việt Nam là một trong những nước xuất khẩu gạo hàng đầu!
+    Từ hạt gạo, người Việt làm ra bánh tráng, phở, bún, bánh chưng… Cho trẻ cầm
+    một chiếc bánh tráng: "Đây cũng từng là những hạt thóc nảy mầm như của con đó!".
+  【JP】メコンデルタは国を養う「米どころ」で、ベトナムは世界有数の米輸出国。
+    米からライスペーパー、フォー、ブン、バインチュンが生まれる。実物の
+    ライスペーパーを持たせ「これも君の籾と同じ、芽が出るお米からできている」と
+    つなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Tưới cây mỗi sáng rèn tính trách nhiệm và sinh hoạt điều độ; sờ hạt thóc ráp,
+    mầm non mượt là bài học xúc giác; từ "nảy mầm, rễ, lá mạ" làm giàu ngôn ngữ;
+    đo và đếm ngày, đo chiều cao mầm là toán học; vựa lúa Cửu Long và món ăn từ gạo
+    là bài học văn hóa – biết ơn.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 毎朝の水やり(責任と継続) / 感覚: 籾のザラザラ・芽のツルツルの触覚 /
+    言語: 「発芽・根・苗」の語彙 / 算数: 日数のカウント・芽の高さ測定 /
+    文化・探求: メコンデルタの米作と米食文化(ライスペーパー・フォー)、食への感謝。
+────────────────────────────
+
+────────────────────────────
+B2. Bí mật của lá sen
+（蓮の葉のひみつ｜生物｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ khám phá "phép màu" của lá sen: giọt nước lăn tròn như viên ngọc mà lá
+    không hề ướt. Từ quốc hoa của Việt Nam, trẻ học cách quan sát tỉ mỉ và thêm
+    yêu, thêm tự hào về thiên nhiên đất nước mình.
+  【JP】蓮の葉の上で水玉が真珠のように転がり、葉が濡れない「ロータス効果」を
+    発見する。ベトナムの国花を通して、細やかな観察力と自国の自然への
+    誇りを育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Mỗi nhóm một chiếc lá sen tươi. Dùng ống nhỏ giọt nhỏ nước lên lá: giọt nước
+    tròn xoe lăn qua lăn lại! Nghiêng lá cho giọt nước "chạy đua". So sánh với lá
+    chuối, tờ giấy, vải — bề mặt nào giữ nước, bề mặt nào không? Sau đó khám phá
+    "kho báu của sen": xem và sờ hạt sen, ngó sen, hoa sen; bóc hạt sen và đếm.
+  【JP】各グループに新鮮な蓮の葉を1枚。スポイトで水を垂らすと水玉が転がる様子を
+    観察し、葉を傾けて「水玉レース」。バナナの葉・紙・布と比較して
+    「水がとどまる面・はじく面」を調べる。続いて「蓮の宝箱」: 蓮の実・蓮の茎・
+    花を見て触り、蓮の実をむいて数える。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cho trẻ xem ao sen hoặc ảnh hoa sen gần nhà, cùng hát bài
+    "Trong đầm gì đẹp bằng sen" trước khi đến lớp.
+  【JP】家庭近くの蓮池または蓮の写真を見せてもらい、民謡「池の中で蓮ほど美しい
+    ものはない」を親子で歌ってきてもらう。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Lá sen tươi, hoa sen, hạt sen, ngó sen, lá chuối, giấy, vải, ống nhỏ giọt,
+    khay nước, kính lúp trẻ em.
+  【JP】新鮮な蓮の葉・花・実・茎、バナナの葉、紙、布、スポイト、水トレー、
+    子ども用ルーペ。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Sen là quốc hoa của Việt Nam: "Gần bùn mà chẳng hôi tanh mùi bùn". Người Việt
+    dùng cả cây sen: trà sen Hồ Tây thơm lừng, chè hạt sen, gỏi ngó sen, cơm gói lá
+    sen. Các nhà khoa học thế giới còn học theo lá sen để làm áo mưa và sơn không
+    thấm nước — lá sen Việt Nam "dạy" cả thế giới đấy!
+  【JP】蓮はベトナムの国花(「泥近くにあれど泥の臭いなし」の民謡)。タイ湖の蓮茶、
+    蓮の実チェー、蓮の茎サラダ、蓮の葉包みごはんと余すところなく使う文化を紹介。
+    世界の科学者が蓮の葉を真似て撥水素材を開発している=「ベトナムの蓮が世界に
+    教えている」と誇りにつなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Bóc hạt sen bằng ngón tay rèn sự khéo léo; sờ mặt lá nhám–mịn, ngửi hương sen
+    là bài học giác quan; ca dao về sen làm giàu ngôn ngữ; đếm hạt sen, so sánh
+    nhiều–ít là toán học; quốc hoa và văn hóa trà sen là bài học tự hào dân tộc.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 蓮の実を指先でむく / 感覚: 葉の表裏の手触り・蓮の香り / 言語: 蓮の
+    民謡・ことわざ / 算数: 蓮の実の数を数え多少を比較 / 文化・探求: 国花としての蓮、
+    蓮茶・蓮料理の文化、ロータス効果の応用。
+────────────────────────────
+
+────────────────────────────
+B3. Hành trình của hạt cà phê
+（コーヒー豆の大ぼうけん｜生物｜Trực tuyến / オンライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Qua màn hình, trẻ theo chân hạt cà phê từ quả chín đỏ trên cây ở Tây Nguyên
+    đến ly cà phê sữa thơm lừng của bố mẹ. Trẻ hiểu "một hạt bé xíu cũng có hành
+    trình dài" và tự hào rằng cà phê Việt Nam nổi tiếng khắp thế giới.
+  【JP】画面越しに、中部高原の木に実る赤い実からパパ・ママの香ばしい
+    カフェスアダー(ミルクコーヒー)までのコーヒー豆の旅をたどる。「小さな一粒にも
+    長い旅がある」ことと、ベトナムコーヒーの世界的な存在感への誇りを育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Buổi học trực tuyến với bộ kit gửi trước. Cô chiếu video vườn cà phê Buôn Ma
+    Thuột: quả chín đỏ như cherry! Trẻ mở kit: so sánh quả khô – hạt xanh – hạt rang,
+    quan sát bằng kính lúp, ngửi mùi thơm hạt rang (không uống nhé!). Trò chơi
+    "xếp đúng hành trình": sắp xếp 4 thẻ tranh cây → quả → hạt → ly cà phê theo
+    thứ tự, rồi đếm và phân loại hạt theo màu.
+  【JP】事前送付キットを使うオンライン講座。ブオンマトゥオットのコーヒー農園の
+    動画(チェリーのような赤い実)を視聴。キットを開封し、乾燥果実・生豆・焙煎豆を
+    比較、ルーペで観察、焙煎豆の香りを嗅ぐ(飲まない約束)。「旅の順番ならべ」
+    ゲームで 木→実→豆→一杯 の絵カード4枚を順に並べ、豆を色別に数えて分類する。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Kit được gửi đến trường/nhà trước 1 tuần (không mở trước giờ học!). Nhờ phụ
+    huynh cho trẻ quan sát người lớn pha cà phê phin buổi sáng: "Từng giọt rơi
+    chậm ơi là chậm — con đếm được bao nhiêu giọt?".
+  【JP】キットは1週間前に園・家庭へ送付(開封は授業まで待つ約束)。家庭では朝の
+    フィン(ベトナム式ドリップ)でコーヒーが一滴ずつ落ちる様子を観察させ
+    「何滴数えられる？」という遊びをしてもらう。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Bộ kit gửi trước: quả cà phê khô, hạt xanh, hạt rang, kính lúp nhỏ, 4 thẻ
+    tranh hành trình, khay phân loại. Phía lớp học: máy tính/TV có mạng, loa.
+  【JP】送付キット: 乾燥コーヒーチェリー、生豆、焙煎豆、ミニルーペ、旅の絵カード
+    4枚、分類トレー。教室側: ネット接続PCまたはTV、スピーカー。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Việt Nam là nước xuất khẩu cà phê top đầu thế giới! Đất đỏ bazan Tây Nguyên
+    (Buôn Ma Thuột, Đắk Lắk) chính là "ngôi nhà" của hạt cà phê robusta. Cà phê
+    phin, cà phê sữa đá là niềm tự hào mà du khách khắp nơi tìm đến Việt Nam để
+    thưởng thức — "hạt cà phê quê mình đi khắp năm châu"!
+  【JP】ベトナムは世界トップクラスのコーヒー輸出国。中部高原(ブオンマトゥオット・
+    ダクラク省)の赤いバザルト土壌がロブスタ豆の「おうち」。フィンコーヒーと
+    カフェスアダーは世界中の旅行者を惹きつける誇り=「うちの豆は五大陸を旅する」。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Mở kit và cất dọn ngăn nắp rèn nề nếp; ngửi hương, sờ hạt nhẵn–ráp là bài học
+    giác quan; từ "rang, xay, pha" làm giàu ngôn ngữ; đếm hạt và xếp thứ tự 1→4 là
+    toán học; bản đồ Tây Nguyên và văn hóa cà phê phin là bài học văn hóa.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: キットの開封と片付けの手順 / 感覚: 香りの嗅覚・豆の触覚(生豆と
+    焙煎豆) / 言語: 「焙煎・挽く・淹れる」の語彙 / 算数: 豆の計数・4段階の順序づけ /
+    文化・探求: 中部高原の地理とフィンコーヒー文化、輸出大国としての誇り。
+────────────────────────────
+
+────────────────────────────
+G1. Núi đá kể chuyện — Đá vôi Vịnh Hạ Long
+（石はおしゃべり〜ハロン湾の岩〜｜地学｜Trực tiếp tại lớp / オフライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ làm quen với "nhà địa chất tí hon": quan sát, so sánh các loại đá và khám
+    phá bí mật của đá vôi — loại đá làm nên kỳ quan Vịnh Hạ Long. Nuôi dưỡng cách
+    nhìn "hòn đá cũng có câu chuyện hàng triệu năm".
+  【JP】「ちいさな地質学者」体験: いろいろな石を観察・比較し、ハロン湾の絶景を
+    作った石灰岩の秘密を探る。「石ころにも何百万年の物語がある」という
+    視点を育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Bày "bảo tàng đá mini": đá vôi, đá cuội, đá ong, sỏi màu… Trẻ sờ, cân trên
+    tay, soi kính lúp, xếp theo to–nhỏ, nặng–nhẹ, nhẵn–ráp. Điểm nhấn là thí nghiệm
+    của cô: nhỏ giấm lên viên đá vôi — sủi bọt li ti như "đá đang thở"! Nhỏ lên đá
+    cuội thì sao? Cả lớp cùng đoán "viên đá nào là họ hàng của núi Hạ Long".
+  【JP】「ミニ石ころ博物館」を開く: 石灰岩、丸石、ラテライト、色付き小石など。
+    触る・手で重さ比べ・ルーペ観察・大小/軽重/ツルザラで分類。ハイライトは先生の
+    実験「石灰岩に酢を垂らすとプクプク泡が出る=石が息をしてるみたい！」。
+    丸石ではどうなるか比較し、「どの石がハロン湾の山の親戚か」をみんなで推理する。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cùng trẻ nhặt 1–2 viên đá/sỏi sạch quanh nhà, rửa sạch và mang
+    đến góp cho "bảo tàng đá" của lớp.
+  【JP】家の周りで石・小石を1〜2個拾って洗い、クラスの「石ころ博物館」に
+    持ち寄ってもらう。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Bộ đá mẫu (đá vôi là bắt buộc), giấm ăn, ống nhỏ giọt, kính lúp, khay, khăn,
+    cân thăng bằng nhỏ, ảnh lớn Vịnh Hạ Long và hang Sơn Đoòng.
+  【JP】岩石標本セット(石灰岩は必須)、食酢、スポイト、ルーペ、トレー、タオル、
+    小型天秤、ハロン湾とソンドン洞窟の大判写真。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Gần 2.000 hòn đảo đá vôi của Vịnh Hạ Long — di sản thế giới — được nước mưa
+    "tạc tượng" suốt hàng triệu năm, cùng truyền thuyết Rồng Mẹ đáp xuống biển.
+    Việt Nam còn có Sơn Đoòng, hang động lớn nhất thế giới, cũng bằng đá vôi!
+    Núi đá quê mình khiến cả thế giới trầm trồ.
+  【JP】世界遺産ハロン湾の約2,000の石灰岩の島々は、雨水が何百万年かけて
+    「彫刻」したもの(+母竜が舞い降りた伝説)。同じ石灰岩でできた世界最大の洞窟
+    ソンドンもベトナムにある。「うちの国の岩山に世界が驚いている」と誇りに
+    つなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Rửa đá, lau khô và trưng bày ngay ngắn rèn sinh hoạt; sờ nhẵn–ráp, cân
+    nặng–nhẹ là bài học giác quan; từ "đá vôi, hang động, sủi bọt" làm giàu ngôn
+    ngữ; phân loại và xếp dãy theo kích cỡ là toán học; kỳ quan Hạ Long và truyền
+    thuyết Rồng là bài học văn hóa – tự hào.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 石を洗う・拭く・整えて展示 / 感覚: 触覚(ツルザラ)と重量感覚
+    (天秤) / 言語: 「石灰岩・洞窟・泡」の語彙 / 算数: 大きさの系列づけ・分類 /
+    文化・探求: 世界遺産ハロン湾・ソンドン洞窟と竜の伝説。
+────────────────────────────
+
+────────────────────────────
+G2. Giọt nước đi du lịch — Mưa từ đâu đến?
+（水のたび〜あめはどこから？〜｜地学｜Trực tuyến / オンライン）
+
+▸ ねらい / Mục tiêu
+  【VN】Trẻ khám phá vòng tuần hoàn của nước: giọt nước bay lên trời thành mây, rơi
+    xuống thành mưa, chảy vào sông rồi ra biển — và lại bay lên! Trẻ hiểu vì sao
+    quê mình có mùa mưa, mùa khô và thêm yêu dòng sông Mê Kông.
+  【JP】水の循環を発見する: 水は蒸発して雲になり、雨として降り、川から海へ、
+    そしてまた空へ。雨季と乾季がある理由を理解し、メコン川への愛着を育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Buổi học trực tuyến với thí nghiệm làm trước ở lớp/nhà: túi zip đựng chút
+    nước màu xanh dán lên cửa sổ nắng (làm từ 3 ngày trước). Trong giờ học, trẻ
+    quan sát: hơi nước bám li ti trên túi như "mây", chảy xuống như "mưa"! Cô chiếu
+    hành trình sông Mê Kông từ núi tuyết qua 6 nước về Việt Nam. Cả lớp chơi trò
+    vận động "vòng đời giọt nước": ngồi xuống là nước, bay lên là hơi, xòe tay
+    rơi xuống là mưa.
+  【JP】3日前から仕込むオンライン講座: 青い色水入りジップ袋を日当たりの窓に
+    貼っておく(プレワーク)。授業では袋の内側の細かい水滴=「雲」、垂れる滴=「雨」を
+    観察。雪山から6か国を旅してベトナムに至るメコン川の映像を視聴。仕上げは
+    体操ゲーム「水のぼうけん」: しゃがむ=水、伸び上がる=水蒸気、手をひらひら
+    下ろす=雨、を音楽に合わせて全身で表現する。
+▸ プレワーク / Chuẩn bị trước
+  【VN】3 ngày trước buổi học, cô và trẻ cùng làm "túi thời tiết": cho nước pha màu
+    xanh vào túi zip, vẽ mặt trời và mây lên túi, dán lên cửa sổ có nắng. Mỗi ngày
+    ghé xem một lần.
+  【JP】3日前に先生と子どもで「お天気袋」を作る: ジップ袋に青い色水を入れ、
+    太陽と雲の絵を描いて日当たりの窓に貼る。毎日1回観察しておく。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Túi zip trong, nước, màu thực phẩm xanh, bút lông vẽ túi, băng dính, bản đồ
+    sông Mê Kông cỡ lớn. Phía lớp: máy tính/TV có mạng, loa, không gian vận động.
+  【JP】透明ジップ袋、水、青の食用色素、袋に描くマーカー、テープ、メコン川の
+    大きな地図。教室側: ネット接続PCまたはTV、スピーカー、体を動かすスペース。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Sông Mê Kông — "sông Mẹ" — bắt nguồn từ núi tuyết cao, chảy qua sáu nước rồi
+    tỏa thành chín nhánh ở Việt Nam nên có tên "Cửu Long — chín con rồng". Nhờ mưa
+    và dòng sông ấy mà có vựa lúa, vườn trái cây, chợ nổi miền Tây. Mùa mưa Sài Gòn
+    chiều nào cũng "tắm mát" cho thành phố — tất cả là vòng tuần hoàn của nước!
+  【JP】メコン川=「母なる川」は雪山に源を発し6か国を流れ、ベトナムで9つの支流に
+    分かれるため「九龍(クーロン)」と呼ばれる。その雨と川がメコンデルタの米・
+    果樹園・水上マーケットを育む。ホーチミンの雨季の夕立も水の循環の一部、と
+    生活実感につなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Tự dán túi, tưới cây bằng nước mưa hứng được rèn sinh hoạt; quan sát giọt
+    nước li ti là bài học giác quan; từ "bay hơi, mây, mưa" làm giàu ngôn ngữ; đếm
+    chín nhánh sông Cửu Long là toán học; hành trình Mê Kông qua sáu nước mở rộng
+    hiểu biết văn hóa – địa lý.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 袋の貼り付け・雨水での水やり / 感覚: 微細な水滴の観察 /
+    言語: 「蒸発・雲・雨」の語彙 / 算数: 九龍=9本の支流を数える / 文化・探求:
+    メコン川の6か国の旅と九龍の地名由来、雨季・乾季の暮らし。
+────────────────────────────
+
+
+【HƯỚNG DẪN TẠO MỤC LỤC TỰ ĐỘNG / 目次の自動生成手順(先生・運営向け)】
+Sau khi dán văn bản này vào Google Tài liệu (Google Docs):
+1. Chọn dòng đầu tiên của mỗi bài học (dòng "P1. / C1. / B1. / G1. …").
+2. Vào [Định dạng] → [Kiểu đoạn văn] → [Tiêu đề 1] để áp dụng.
+3. Đặt con trỏ vào trang đầu, vào [Chèn] → [Mục lục] để tạo mục lục tự động.
+
+このテキストをGoogleドキュメントに貼り付けた後:
+1. 各講座の1行目(「P1. / C1. / B1. / G1. …」の行)を選択する。
+2. [表示形式]→[段落スタイル]→[見出し1]を適用する。
+3. 先頭ページにカーソルを置き、[挿入]→[目次]で目次を自動生成する。
+
+
+【運営向け編集メモ】
+本ファイルは旧プログラムシート(CSV/TSV)が本セッションに添付されていなかったため、
+指定テンプレート・理念・区分構成(P物理/C化学/B生物/G地学)に基づき新規に起草した
+第1版(本講座10回分)です。旧シートの原データを共有いただければ、各講座の
+タイトル・ねらい・方法等を原文どおりに差し替えて再生成します。

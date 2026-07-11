@@ -50,7 +50,7 @@ PHẦN 1: BÀI HỌC TRỰC TUYẾN / オンライン講座
 ・G1. Thu thập nước mưa (lượng mưa, tiếng mưa)
 ・G2. Hãy cùng tìm hiểu về cát và đá ★
 ・G3. Hãy tạo ra địa tầng
-・G4. Mặt trời và bóng (đang biên soạn)
+・G4. Mặt trời và bóng (bản thảo mới)
 ・G5. Tạo ra mây ★
 
 PHẦN 2: BÀI HỌC TRỰC TIẾP TẠI LỚP / オフライン講座
@@ -63,7 +63,7 @@ PHẦN 2: BÀI HỌC TRỰC TIẾP TẠI LỚP / オフライン講座
 ・XB3. Quan sát động vật
 ・XG1. Cảm nhận áp suất nước và áp suất khí quyển
 ・XG2. Làm mô hình địa hình
-・XG3. Khoa học viên đất tròn — dorodango (đang biên soạn)
+・XG3. Khoa học viên đất tròn — dorodango (bản thảo mới)
 
 PHỤ LỤC / 付録
 ・Phụ lục A: Danh mục vật dụng gửi kèm / 配送物品案
@@ -99,7 +99,7 @@ PHẦN 1: TRỰC TUYẾN / オンライン (27 bài / 27回)
 ・G1. Thu thập nước mưa（雨を集めよう（雨量、雨音）｜気象｜オンライン）
 ・G2. Hãy cùng tìm hiểu về cát và đá（砂や石を調べてみよう｜地質｜オンライン）★Lesson 4
 ・G3. Hãy tạo ra địa tầng（地層を作ろう｜地質｜オンライン）
-・G4. Mặt trời và bóng（太陽と影｜天体｜オンライン）※内容は原案未記載
+・G4. Mặt trời và bóng（太陽と影｜天体｜オンライン）※新規起草案
 ・G5. Tạo ra mây（雲をつくる｜気象｜オンライン）★Lesson 9
 
 PHẦN 2: TRỰC TIẾP TẠI LỚP / オフライン (10 bài / 10回)
@@ -112,7 +112,7 @@ PHẦN 2: TRỰC TIẾP TẠI LỚP / オフライン (10 bài / 10回)
 ・XB3. Quan sát động vật — tại sở thú hoặc nông trại（動物の観察（動物園や牧場で）｜動物｜オフライン）
 ・XG1. Cảm nhận áp suất nước và áp suất khí quyển（水圧や大気圧を体感しよう（ガスコンロ、水濡れ可）｜気象｜オフライン）
 ・XG2. Làm mô hình địa hình — bãi biển, hố cát, vùng bùn（地形の模型作り（砂浜、砂場、湿地などで）｜地質｜オフライン）
-・XG3. Khoa học viên đất tròn — dorodango（泥団子の科学｜地質｜オフライン）※内容は原案未記載
+・XG3. Khoa học viên đất tròn — dorodango（泥団子の科学｜地質｜オフライン）※新規起草案
 
 
 ════════════════════════════════════════
@@ -1127,7 +1127,7 @@ G3. Hãy tạo ra địa tầng
 ────────────────────────────
 
 ────────────────────────────
-G4. Mặt trời và bóng ※Đang biên soạn / 内容は原案未記載
+G4. Mặt trời và bóng ※Bản thảo mới / 新規起草案
 （太陽と影｜天体｜Trực tuyến / オンライン）
 
 ▸ ねらい / Mục tiêu
@@ -1136,9 +1136,42 @@ G4. Mặt trời và bóng ※Đang biên soạn / 内容は原案未記載
     bóng.
   【JP】日光は直進し、物体があるとその後ろに影を作ることを知る。太陽の高さに
     よって影の長さが変わることを知る。
-▸ 本作業(方法)・プレワーク・準備物ほか
-  【VN】Các mục còn lại chưa được ghi trong bản gốc — sẽ bổ sung sau.
-  【JP】本作業・プレワーク・準備物等は原シート未記載。今後補筆予定。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】Ở nơi có nắng (sân hoặc bên cửa sổ), đặt một que hoặc món đồ chơi đứng lên
+    tờ giấy và vẽ lại chiếc bóng của nó vào buổi sáng, buổi trưa và buổi chiều.
+    Quan sát: bóng đổi hướng và dài – ngắn thế nào? Trong nhà, dùng đèn pin thay
+    mặt trời: đưa đèn lên cao rồi hạ thấp để thấy bóng ngắn lại và dài ra. Cuối giờ
+    cùng chơi múa bóng bằng bàn tay trên tường.
+  【JP】日当たりのよい場所(園庭や窓辺)で、棒や立つおもちゃを紙の上に置き、朝・昼・
+    夕方に影をなぞって記録する。影の向きや長さがどう変わるかを観察。室内では
+    懐中電灯を太陽に見立て、高くかざす→低くすると影が短く・長くなるのを確かめる。
+    最後に壁で手影絵あそびをする。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Nhờ phụ huynh cùng trẻ quan sát bóng của mình vào buổi sáng và buổi chiều:
+    "Bóng của con lúc nào dài hơn, lúc nào ngắn hơn?".
+  【JP】朝と夕方の自分の影を保護者と観察してもらう。「影が長いのはいつ？短いのは
+    いつ？」という問いを持たせる。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Bộ kit gửi kèm: không có. Tự chuẩn bị: giấy hoặc phấn, que / đồ chơi đứng
+    được, bút, đồng hồ (để xem giờ), đèn pin (dùng khi trời mưa).
+  【JP】キット送付: なし。準備物: 紙またはチョーク、棒や立つおもちゃ、ペン、時計
+    (時刻確認用)、懐中電灯(雨天時用)。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Việt Nam nằm gần xích đạo, nắng rất mạnh nên vào buổi trưa bóng ngắn lại
+    thấy rõ. Chiếc nón lá của người Việt chính là "chiếc bóng mát di động" che nắng
+    tài tình. Giới thiệu đồng hồ mặt trời — cách người xưa xem giờ bằng bóng nắng.
+  【JP】ベトナムは赤道に近く日差しが強いので、正午の影が短くなるのがよく分かる。
+    ベトナムの菅笠(ノンラー)は「持ち歩ける日陰」。昔の人が影で時刻を知った
+    日時計も紹介する。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Đặt vật đúng chỗ và vẽ bóng theo từng mốc giờ rèn nề nếp; phân biệt sáng –
+    tối là bài học giác quan; từ "bóng, dài, ngắn, hướng" làm giàu ngôn ngữ; đo và
+    so sánh độ dài bóng theo giờ là toán học; nón lá và đồng hồ mặt trời là bài học
+    văn hóa – khám phá.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 決まった時刻に物を置き影をなぞる / 感覚: 明暗の識別 /
+    言語: 「影・長い・短い・向き」の語彙 / 算数: 時刻ごとの影の長さを測って比較 /
+    文化・探求: ノンラーと日時計、太陽の高さと影の関係。
 ────────────────────────────
 
 ────────────────────────────
@@ -1569,17 +1602,53 @@ XG2. Làm mô hình địa hình
 ────────────────────────────
 
 ────────────────────────────
-XG3. Khoa học viên đất tròn — dorodango ※Đang biên soạn / 内容は原案未記載
+XG3. Khoa học viên đất tròn — dorodango ※Bản thảo mới / 新規起草案
 （泥団子の科学｜地質｜Trực tiếp tại lớp / オフライン）
 
 ▸ ねらい / Mục tiêu
-  【VN】(Chưa ghi trong bản gốc — sẽ bổ sung.) Dự kiến: qua việc nắm và mài viên đất
-    tròn (dorodango) bóng loáng, trẻ cảm nhận tính chất của đất, cát và nước.
-  【JP】(原シート未記載。今後補筆予定。)想定: 光る泥団子(dorodango)を握り磨く
-    過程で、土・砂・水の性質を体感する。
-▸ 本作業(方法)・プレワーク・準備物ほか
-  【VN】Các mục còn lại chưa được ghi trong bản gốc — sẽ bổ sung sau.
-  【JP】本作業・プレワーク・準備物等は原シート未記載。今後補筆予定。
+  【VN】Qua việc nắm và mài một viên đất tròn (dorodango) đến khi bóng loáng, trẻ
+    cảm nhận rằng đất được tạo từ những hạt to – nhỏ khác nhau, và hạt càng mịn thì
+    bề mặt càng nhẵn bóng. Nuôi dưỡng sự kiên nhẫn và niềm vui "tự tay làm ra".
+  【JP】光る泥団子(dorodango)を握って磨く過程で、土は大小さまざまな粒からできて
+    いて、粒が細かいほど表面がなめらかに光ることを体感する。根気と「自分の手で
+    作り上げる」喜びを育てる。
+▸ 本作業(方法) / Cách thực hiện
+  【VN】① Trộn đất mịn (đất sét hoặc bùn mịn) với một chút nước, nắm thật chặt tạo
+    thành viên tròn (phần lõi). ② Rắc bột đất khô thật mịn lên bề mặt rồi xoa nhẹ,
+    lặp lại nhiều lần cho khô dần. ③ Dùng lòng bàn tay hoặc vải mềm mài từ từ đến
+    khi viên đất bóng lên. So sánh viên làm từ cát thô và viên làm từ đất mịn — viên
+    nào nhẵn bóng hơn? Vì sao?
+  【JP】①細かい土(粘土または細かい泥)を少量の水と混ぜ、ぎゅっと握って芯の玉を
+    作る。②乾いたサラサラの土を表面にふりかけては優しくなでる、を繰り返して
+    少しずつ乾かす。③手のひらや柔らかい布でゆっくり磨き、つやが出るまで仕上げる。
+    粗い砂の玉と細かい土の玉を比べ「どちらがなめらかに光る？なぜ？」を考える。
+▸ プレワーク / Chuẩn bị trước
+  【VN】Sờ và so sánh đất khô, đất ẩm và bùn: "Loại nào dễ nắm thành viên tròn nhất?".
+  【JP】乾いた土・湿った土・泥を触り比べる。「どれが一番丸めやすい？」という
+    問いを持たせる。
+▸ 準備物 / Vật liệu cần chuẩn bị
+  【VN】Bộ kit gửi kèm: không có. Tự chuẩn bị: đất mịn / đất sét, cát, nước, rây lọc
+    (để lấy bột đất mịn), khăn mềm, khăn lau, (túi nhựa để ủ viên đất).
+  【JP】キット送付: なし。準備物: 細かい土・粘土、砂、水、ふるい(細かい土を
+    取るため)、柔らかい布、ぞうきん、(玉を寝かせるビニール袋)。
+▸ 地産地消・ベトナム接続 / Kết nối & tự hào Việt Nam
+  【VN】Đất sét mịn của Việt Nam là nguyên liệu làm nên gốm Bát Tràng nổi tiếng và
+    những viên gạch đỏ xây nhà. Phù sa mịn màng do sông Mê Kông bồi đắp cũng chính
+    là loại đất quý nuôi cây lúa. Viên dorodango nhỏ giúp trẻ hiểu vì sao đất mịn
+    lại quý đến thế.
+  【JP】ベトナムの細かい粘土は、有名なバッチャン焼きや家を建てる赤レンガの原料。
+    メコン川が運ぶ細かい沖積土(phù sa)も稲を育てる貴重な土。小さな泥団子から
+    「細かい土がなぜ大切か」を実感につなげる。
+▸ モンテッソーリ5領域(先生向け) / 5 lĩnh vực Montessori
+  【VN】Nắm, rắc bột, mài và lau tay là chuỗi thao tác sinh hoạt rèn sự kiên nhẫn;
+    cảm nhận đất khô – ẩm, thô – mịn bằng xúc giác; diễn đạt "nhẵn, bóng, ráp…" làm
+    giàu ngôn ngữ; so sánh độ nhẵn – bóng giữa các viên và hiểu quan hệ với kích
+    thước hạt là toán học; gốm Bát Tràng và gạch đỏ là bài học văn hóa – tự hào.
+▸ モンテッソーリ5領域(運営メモ)
+  【JP】日常生活: 握る・粉をふる・磨く・手を拭くの一連の作業(根気を育てる) /
+    感覚: 乾湿・粗密を手で感じる触覚 / 言語: 「なめらか・つやつや・ザラザラ」の
+    語彙 / 算数: 玉のなめらかさを比べ、粒の大きさとの関係を考える / 文化・探求:
+    バッチャン焼き・赤レンガ・メコンの沖積土など、細かい土の価値。
 ────────────────────────────
 
 
@@ -1665,12 +1734,17 @@ GHI CHÚ BIÊN TẬP (dành cho vận hành) / 運営向け編集メモ
   ねらい / phương pháp / pre-work / vật dụng / góc nhìn địa phương của mỗi bài được
   giữ đúng theo bản gốc; các mục thiếu tiếng Việt (phần lớn ở các bài offline) đã
   được dịch mới sao cho tự nhiên, ấm áp, phù hợp với ngữ cảnh giáo dục trẻ 5 tuổi.
-  Hai bài G4 (Mặt trời và bóng) và XG3 (dorodango) trong bản gốc chưa có đủ nội
-  dung nên được đánh dấu "đang biên soạn".
+  Riêng hai bài G4 (Mặt trời và bóng) và XG3 (dorodango): bản gốc chỉ có (hoặc
+  chưa có) phần mục tiêu, nên toàn bộ phương pháp / pre-work / vật dụng / góc nhìn
+  địa phương của hai bài này là bản thảo mới do biên tập viên soạn theo đúng mẫu
+  và triết lý chương trình — được đánh dấu "Bản thảo mới", xin vận hành duyệt lại.
 
 【JP】本講座集は、旧プログラムデータ(日越CSV2ファイル+.numbers1ファイル)と、
   Googleドキュメント上の本講座動画台本10本をもとに整形しました。各講座の
   ねらい・方法・プレワーク・準備物・地産地消の観点は原データに忠実に併記し、
   ベトナム語が無い項目(主にオフライン講座)は5歳児教育の文脈にふさわしい自然で
   温かいベトナム語に新規翻訳しています。G4(太陽と影)とXG3(泥団子の科学)は
-  原シートで内容が未記載のため「đang biên soạn / 内容は原案未記載」と明記しました。
+  原シートにねらいのみ(またはそれも無く)本文が未記載だったため、方法・プレ
+  ワーク・準備物・地産地消の観点をプログラムの理念とテンプレートに沿って
+  編集者が新規起草しました。該当2講座は「Bản thảo mới / 新規起草案」と明記して
+  いますので、運営で内容をご確認ください。

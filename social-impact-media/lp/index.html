@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gieo Hạt — Cùng gieo hạt cho tương lai Việt Nam</title>
+<meta name="description" content="Park Teo (Hàn Quốc) và Aki (Nhật Bản) — hai người bạn ngoại quốc dùng tài sản cá nhân hỗ trợ trẻ em Việt Nam, và chia sẻ miễn phí kiến thức về tiền bạc.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#2f7a3d; --green-dark:#22592d; --green-pale:#e8f3ea;
+    --ivory:#faf7f0; --ink:#26302a; --muted:#5c6b60;
+    --card:#ffffff; --line:#e3ded2; --accent:#c98a2d;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Be Vietnam Pro',sans-serif;background:var(--ivory);color:var(--ink);line-height:1.75;font-size:16px}
+  img{max-width:100%}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  section{padding:64px 0}
+  h2{font-size:1.7rem;font-weight:800;color:var(--green-dark);margin-bottom:8px}
+  .kicker{font-size:.85rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+  .lead{color:var(--muted);margin-bottom:32px;max-width:640px}
+
+  /* Hero */
+  .hero{background:linear-gradient(160deg,var(--green-dark),var(--green) 70%);color:#fff;padding:88px 0 72px;text-align:center}
+  .hero .flag{font-size:2rem;margin-bottom:12px}
+  .hero h1{font-size:clamp(1.9rem,5vw,2.9rem);font-weight:800;line-height:1.3;margin-bottom:18px}
+  .hero p{max-width:620px;margin:0 auto 30px;color:#e7f0e8;font-size:1.05rem}
+  .btn{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none;transition:transform .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-light{background:#fff;color:var(--green-dark)}
+  .btn-outline{border:2px solid #ffffffaa;color:#fff;margin-left:10px}
+  .btn-green{background:var(--green);color:#fff}
+  @media(max-width:560px){.btn-outline{margin-left:0;margin-top:10px}.hero .btn{display:block;max-width:320px;margin:10px auto}}
+
+  /* Promise banner */
+  .promise{background:var(--green-pale);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 0;text-align:center}
+  .promise strong{color:var(--green-dark);font-size:1.05rem}
+
+  /* Cards */
+  .grid{display:grid;gap:20px}
+  .grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .grid-3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px}
+  .card h3{color:var(--green-dark);font-size:1.15rem;margin-bottom:10px}
+  .card .emoji{font-size:1.8rem;display:block;margin-bottom:10px}
+  .avatar{width:72px;height:72px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.3rem;margin-bottom:14px}
+  .avatar.aki{background:var(--accent)}
+  .tag{display:inline-block;background:var(--green-pale);color:var(--green-dark);font-size:.78rem;font-weight:600;padding:3px 12px;border-radius:999px;margin:2px 4px 2px 0}
+  .card .note{font-size:.85rem;color:var(--muted);margin-top:12px}
+  .pending{font-size:.82rem;color:var(--muted);font-style:italic}
+
+  /* FAQ */
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:12px}
+  details summary{font-weight:700;cursor:pointer;color:var(--green-dark)}
+  details p{margin-top:10px;color:var(--muted)}
+
+  /* Message */
+  .message{background:var(--green-dark);color:#eef5ee}
+  .message h2{color:#fff}
+  .message .kicker{color:#e8c98a}
+  .message p{max-width:680px;margin-bottom:18px}
+  .message .sign{font-weight:700;color:#fff;margin-top:8px}
+
+  /* Footer */
+  footer{background:#1c2b20;color:#9db3a2;padding:40px 0;font-size:.85rem;text-align:center}
+  footer .sns a{color:#d8e5da;text-decoration:none;margin:0 10px;font-weight:600}
+  footer .legal{margin-top:16px;max-width:640px;margin-left:auto;margin-right:auto}
+  ul.clean{list-style:none}
+  ul.clean li{padding-left:1.6em;position:relative;margin-bottom:10px}
+  ul.clean li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800}
+</style>
+</head>
+<body>
+
+<!-- ============ 1. HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="flag">🌱🇻🇳</div>
+    <h1>Cùng gieo hạt<br>cho tương lai Việt Nam</h1>
+    <p>Hai người bạn đến từ Hàn Quốc và Nhật Bản, dùng chính tài sản của mình để đồng hành cùng trẻ em mồ côi, hỗ trợ giáo dục — và chia sẻ <strong>miễn phí</strong> kiến thức về cách ứng xử với tiền bạc cho người Việt.</p>
+    <a class="btn btn-light" href="#video">▶ Xem câu chuyện của chúng tôi</a>
+    <a class="btn btn-outline" href="#community">Tham gia cộng đồng học miễn phí</a>
+  </div>
+</header>
+
+<!-- ============ PROMISE BANNER ============ -->
+<div class="promise">
+  <div class="wrap">
+    <strong>Chúng tôi KHÔNG bán sản phẩm đầu tư · KHÔNG kêu gọi góp vốn · KHÔNG nhận tiền của bạn.</strong><br>
+    <span style="color:var(--muted);font-size:.9rem">Mọi lớp học và nội dung đều miễn phí. Không có khóa học trả phí nào đang chờ bạn ở cuối con đường.</span>
+  </div>
+</div>
+
+<!-- ============ 2. ABOUT ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="kicker">Chúng tôi là ai</div>
+    <h2>Hai người bạn, một tình yêu Việt Nam</h2>
+    <p class="lead">Chúng tôi quen nhau vì cùng một điểm chung: yêu mến đất nước Việt Nam, và mong những người Việt Nam thân yêu được sống sung túc hơn.</p>
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="avatar">PT</div>
+        <h3>Park Teo</h3>
+        <span class="tag">🇰🇷 Hàn Quốc</span><span class="tag">Nhà đầu tư · Giám đốc điều hành</span>
+        <p>Đã sinh sống tại Việt Nam hơn 3 năm. Làm việc trong lĩnh vực tài chính nhiều năm, và tin rằng điều quý giá nhất có thể chia sẻ không phải là tiền — mà là <strong>cách suy nghĩ về tiền</strong>: cách giữ, cách chi tiêu, và cách tránh xa những cạm bẫy tài chính.</p>
+      </div>
+      <div class="card">
+        <div class="avatar aki">AK</div>
+        <h3>Aki</h3>
+        <span class="tag">🇯🇵 Nhật Bản</span><span class="tag">YouTuber · Giám đốc điều hành</span>
+        <p>Từng sinh sống tại Việt Nam khoảng 10 năm trước. Từ đó đến nay liên tục hỗ trợ thực phẩm và học phẩm cho các trại trẻ mồ côi, với mong muốn làm phong phú tương lai của trẻ em Việt Nam. Nay quay lại Việt Nam để tiếp tục và mở rộng hành trình đó.</p>
+        <p class="note">▶ Kênh YouTube: 【リンク】</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. ACTIVITIES ============ -->
+<section id="activities" style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="kicker">Hoạt động thiện nguyện</div>
+    <h2>Những gì chúng tôi đang làm</h2>
+    <p class="lead">Kinh phí đến từ tài sản cá nhân của hai chúng tôi. Chúng tôi không gây quỹ từ cộng đồng. Mỗi hoạt động đều được ghi lại bằng hình ảnh, ngày tháng và chứng từ.</p>
+    <div class="grid grid-3">
+      <div class="card" style="background:var(--ivory)">
+        <span class="emoji">🏠</span>
+        <h3>Mái ấm trẻ mồ côi</h3>
+        <p>Thăm và hỗ trợ thực phẩm, học phẩm định kỳ tại 【施設名/地域】.</p>
+        <p class="pending">Nhật ký hoạt động: đang cập nhật</p>
+      </div>
+      <div class="card" style="background:var(--ivory)">
+        <span class="emoji">💧</span>
+        <h3>Giếng nước sạch</h3>
+        <p>Xây dựng giếng nước cho các vùng còn khó khăn về nước sinh hoạt.</p>
+        <p class="pending">Nhật ký hoạt động: đang cập nhật</p>
+      </div>
+      <div class="card" style="background:var(--ivory)">
+        <span class="emoji">🏫</span>
+        <h3>Trường học &amp; giáo dục</h3>
+        <p>Hỗ trợ xây dựng, cải tạo trường học và chương trình giáo dục khoa học cho trẻ em.</p>
+        <p class="pending">Nhật ký hoạt động: đang cập nhật</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO ============ -->
+<section id="video" style="text-align:center">
+  <div class="wrap">
+    <div class="kicker">Câu chuyện của chúng tôi</div>
+    <h2>Tại sao chúng tôi làm điều này? (90 giây)</h2>
+    <div style="max-width:720px;margin:24px auto 0;aspect-ratio:16/9;background:var(--green-pale);border:1px dashed var(--green);border-radius:16px;display:flex;align-items:center;justify-content:center;color:var(--green-dark);font-weight:600">
+      ▶ 【ブランドフィルム埋め込み予定】
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. FREE EDUCATION ============ -->
+<section id="learn" style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="kicker">Học miễn phí</div>
+    <h2>Học về tiền — hoàn toàn miễn phí</h2>
+    <p class="lead">Trước khi học cách kiếm tiền, hãy học cách suy nghĩ về tiền: cách quản lý, cách giữ, và cách bảo vệ bản thân.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <span class="emoji">📱</span>
+        <h3>"Bài học 1 phút về tiền"</h3>
+        <p>Video ngắn mỗi tuần trên TikTok: chia lương, quỹ khẩn cấp, lãi kép, thói quen chi tiêu.</p>
+      </div>
+      <div class="card">
+        <span class="emoji">🛡️</span>
+        <h3>"Đó có thể là lừa đảo"</h3>
+        <p>Cách nhận biết lừa đảo tài chính. Quy tắc số 1 của chúng tôi: <strong>trên đời không có khoản đầu tư nào "chắc chắn thắng"</strong>. Ai hứa điều đó — hãy tránh xa.</p>
+      </div>
+      <div class="card">
+        <span class="emoji">🏫</span>
+        <h3>Lớp học tại TP.HCM</h3>
+        <p>Mỗi tháng một lần, hoàn toàn miễn phí: quản lý chi tiêu, thói quen, tư duy về tiền và cuộc sống.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. COMMUNITY ============ -->
+<section id="community">
+  <div class="wrap">
+    <div class="kicker">Cộng đồng</div>
+    <h2>Cùng học, cùng làm</h2>
+    <div class="grid grid-2" style="margin-top:24px">
+      <div class="card">
+        <span class="emoji">💬</span>
+        <h3>Nhóm Zalo</h3>
+        <p>Nhận thông báo lớp học miễn phí và nhật ký hoạt động thiện nguyện.</p>
+        <p class="note"><strong>Quy tắc nhóm:</strong> cấm mọi hình thức mời chào đầu tư, đa cấp, cho vay — <u>kể cả từ chính chúng tôi</u>. Vi phạm sẽ bị xóa và mời ra khỏi nhóm.</p>
+        <p style="margin-top:16px"><a class="btn btn-green" href="【ZaloリンクURL】">Tham gia nhóm Zalo</a></p>
+      </div>
+      <div class="card">
+        <span class="emoji">🤝</span>
+        <h3>Sự kiện &amp; tình nguyện</h3>
+        <p>Lớp học về tiền tại TP.HCM, buổi báo cáo hoạt động thiện nguyện, và cơ hội cùng chúng tôi đi thăm các mái ấm.</p>
+        <p class="note">Miễn phí hoặc chỉ thu đúng chi phí thực tế.</p>
+        <p style="margin-top:16px"><a class="btn btn-green" href="【イベントページURL】">Xem lịch sự kiện</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. TRANSPARENCY ============ -->
+<section id="transparency" style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="kicker">Minh bạch</div>
+    <h2>Minh bạch là lời hứa của chúng tôi</h2>
+    <ul class="clean" style="margin-top:20px;max-width:680px">
+      <li>Kinh phí hoạt động đến từ <strong>tài sản cá nhân và lợi nhuận kinh doanh</strong> của hai nhà sáng lập. Chúng tôi không gây quỹ, không nhận quyên góp từ cộng đồng.</li>
+      <li>Nhật ký hoạt động kèm hình ảnh và chứng từ được công bố định kỳ trên trang này.</li>
+      <li>Chúng tôi không nhận tư vấn đầu tư cá nhân, và không giới thiệu bất kỳ sản phẩm tài chính nào.</li>
+      <li>⚠️ Nếu có ai <strong>mạo danh chúng tôi</strong> để mời chào đầu tư, kêu gọi chuyển tiền hoặc quyên góp — <strong>đó là lừa đảo</strong>. Xin báo ngay cho chúng tôi qua trang Facebook chính thức.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 7. FAQ ============ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="kicker">FAQ</div>
+    <h2>Câu hỏi thường gặp</h2>
+    <div style="margin-top:24px;max-width:720px">
+      <details>
+        <summary>Các anh có bán khóa học hay sản phẩm đầu tư không?</summary>
+        <p>Không. Mọi nội dung và lớp học đều miễn phí. Chúng tôi không bán bất cứ thứ gì, và cũng không có "khóa học nâng cao trả phí" nào cả.</p>
+      </details>
+      <details>
+        <summary>Tiền hoạt động từ đâu ra?</summary>
+        <p>Từ tài sản cá nhân và lợi nhuận kinh doanh của hai chúng tôi. Chúng tôi không nhận tiền của bạn.</p>
+      </details>
+      <details>
+        <summary>Tôi muốn hỏi nên đầu tư vào đâu, được không?</summary>
+        <p>Chúng tôi không nhận tư vấn đầu tư cá nhân và không giới thiệu nơi đầu tư. Điều chúng tôi chia sẻ là kiến thức nền tảng: quản lý chi tiêu, tiết kiệm, và cách nhận biết lừa đảo. Và hãy nhớ: ai hứa với bạn "lợi nhuận chắc chắn" — người đó đang nhắm vào tiền của bạn.</p>
+      </details>
+      <details>
+        <summary>Tôi có thể tham gia hoạt động thiện nguyện cùng các anh không?</summary>
+        <p>Rất hoan nghênh! Hãy tham gia nhóm Zalo hoặc theo dõi lịch sự kiện để biết các chuyến thăm mái ấm và hoạt động sắp tới.</p>
+      </details>
+      <details>
+        <summary>Lớp học miễn phí diễn ra ở đâu, khi nào?</summary>
+        <p>Tại TP. Hồ Chí Minh, mỗi tháng một lần, khoảng 90 phút. Lịch cụ thể được thông báo trong nhóm Zalo và trang Facebook. Hoàn toàn miễn phí.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MESSAGE ============ -->
+<section class="message">
+  <div class="wrap">
+    <div class="kicker">Lời nhắn từ chúng tôi</div>
+    <h2>Tại sao chúng tôi làm điều này?</h2>
+    <p>Chúng tôi quen nhau vì cùng có một điểm chung: yêu mến đất nước Việt Nam. Và chúng tôi cùng chia sẻ một mục tiêu — muốn những người Việt Nam thân yêu được sống sung túc hơn.</p>
+    <p>Chúng tôi không muốn ai phải từ bỏ ước mơ chỉ vì thiếu hiểu biết về tiền, hay mất trắng vì một lời hứa "chắc chắn có lãi". Vì vậy chúng tôi gieo hai loại hạt: <strong>hạt của cơ hội</strong> — trường học, giếng nước, mái ấm cho trẻ em; và <strong>hạt của tri thức</strong> — cách suy nghĩ đúng về tiền bạc, chia sẻ hoàn toàn miễn phí.</p>
+    <p>Cây lớn lên không phải nhờ chúng tôi, mà nhờ chính bàn tay người Việt Nam. Nếu bạn đồng cảm — hãy cùng học, cùng làm với chúng tôi.</p>
+    <p class="sign">— Park Teo &amp; Aki</p>
+  </div>
+</section>
+
+<!-- ============ 8. FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="sns">
+      <a href="【FacebookURL】">Facebook</a> ·
+      <a href="【TikTokURL】">TikTok</a> ·
+      <a href="【InstagramURL】">Instagram</a> ·
+      <a href="【YouTubeURL】">YouTube</a> ·
+      <a href="【ZaloURL】">Zalo</a>
+    </div>
+    <div class="legal">
+      <p>Liên hệ: 【メールアドレス】</p>
+      <p style="margin-top:10px">Trang web này không nhằm mục đích tư vấn đầu tư hay mời chào sản phẩm tài chính. Chúng tôi không thu thập tiền, không gây quỹ và không bán bất kỳ sản phẩm nào.</p>
+      <p style="margin-top:10px">© 2026 Gieo Hạt Project</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

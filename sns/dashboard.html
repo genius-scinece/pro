@@ -1,0 +1,662 @@
+<title>Genius Science 配信管理</title>
+<style>
+:root{
+  --ink:#22303a; --ink-2:#5b6b74; --paper:#f6f8f7; --card:#ffffff;
+  --line:#dde5e2; --accent:#0e7c66; --accent-ink:#0a5c4c; --accent-soft:#e2f0ec;
+  --chipA:#0e7c66; --chipB:#7052b0; --chipC:#b04f63; --chipD:#a06a1f; --chipE:#2f6ea8;
+  --st-draft:#8a969d; --st-review:#a06a1f; --st-approved:#0e7c66; --st-scheduled:#2f6ea8; --st-posted:#22303a;
+  --shadow:0 1px 3px rgba(30,45,40,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#e6edea; --ink-2:#9fb0a9; --paper:#141c1a; --card:#1d2622;
+    --line:#32403a; --accent:#4cc3a5; --accent-ink:#7ad9c0; --accent-soft:#22352f;
+    --chipA:#4cc3a5; --chipB:#a98fe0; --chipC:#e08a9b; --chipD:#d9a75a; --chipE:#7fb3dd;
+    --st-draft:#7d8a91; --st-review:#d9a75a; --st-approved:#4cc3a5; --st-scheduled:#7fb3dd; --st-posted:#c9d4d0;
+    --shadow:0 1px 3px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="light"]{
+  --ink:#22303a; --ink-2:#5b6b74; --paper:#f6f8f7; --card:#ffffff;
+  --line:#dde5e2; --accent:#0e7c66; --accent-ink:#0a5c4c; --accent-soft:#e2f0ec;
+  --chipA:#0e7c66; --chipB:#7052b0; --chipC:#b04f63; --chipD:#a06a1f; --chipE:#2f6ea8;
+  --st-draft:#8a969d; --st-review:#a06a1f; --st-approved:#0e7c66; --st-scheduled:#2f6ea8; --st-posted:#22303a;
+  --shadow:0 1px 3px rgba(30,45,40,.08);
+}
+:root[data-theme="dark"]{
+  --ink:#e6edea; --ink-2:#9fb0a9; --paper:#141c1a; --card:#1d2622;
+  --line:#32403a; --accent:#4cc3a5; --accent-ink:#7ad9c0; --accent-soft:#22352f;
+  --chipA:#4cc3a5; --chipB:#a98fe0; --chipC:#e08a9b; --chipD:#d9a75a; --chipE:#7fb3dd;
+  --st-draft:#7d8a91; --st-review:#d9a75a; --st-approved:#4cc3a5; --st-scheduled:#7fb3dd; --st-posted:#c9d4d0;
+  --shadow:0 1px 3px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic UI","Segoe UI",system-ui,sans-serif;
+  font-size:15px; line-height:1.75;}
+header.top{background:var(--card);border-bottom:1px solid var(--line);padding:20px 24px 0;}
+.brand{max-width:1080px;margin:0 auto;display:flex;gap:14px;align-items:center;}
+.logo{flex:none;width:46px;height:46px;border-radius:12px;background:var(--accent);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;letter-spacing:.02em;}
+:root[data-theme="dark"] .logo{color:#10201b}
+@media (prefers-color-scheme: dark){ .logo{color:#10201b} }
+:root[data-theme="light"] .logo{color:#fff}
+.brand h1{margin:0;font-size:19px;letter-spacing:.01em}
+.brand p{margin:2px 0 0;color:var(--ink-2);font-size:13px}
+nav.tabs{max-width:1080px;margin:14px auto 0;display:flex;gap:4px;overflow-x:auto;}
+nav.tabs button{appearance:none;border:0;background:none;color:var(--ink-2);font:inherit;font-size:14px;font-weight:600;
+  padding:10px 14px;border-radius:10px 10px 0 0;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;}
+nav.tabs button:hover{color:var(--ink)}
+nav.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+nav.tabs button.on{color:var(--accent-ink);border-bottom-color:var(--accent);}
+main{max-width:1080px;margin:0 auto;padding:24px 24px 80px;}
+section.tab{display:none}
+section.tab.on{display:block}
+h2{font-size:17px;margin:28px 0 10px;letter-spacing:.01em;text-wrap:balance}
+h2:first-child{margin-top:4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:18px 20px;}
+.grid{display:grid;gap:14px}
+.grid.cols3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.muted{color:var(--ink-2);font-size:13px}
+.pill{display:inline-block;padding:1px 10px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.03em;
+  color:var(--card);vertical-align:middle;}
+.pillA{background:var(--chipA)} .pillB{background:var(--chipB)} .pillC{background:var(--chipC)}
+.pillD{background:var(--chipD)} .pillE{background:var(--chipE)}
+.step{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px dashed var(--line)}
+.step:last-child{border-bottom:0}
+.step .n{flex:none;width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:var(--accent-ink);
+  font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;margin-top:3px}
+.step b{display:block}
+.who{font-size:11px;font-weight:700;letter-spacing:.06em;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);margin-left:6px;vertical-align:1px}
+.who.ai{border-color:var(--accent);color:var(--accent-ink)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle;white-space:nowrap}
+th{font-size:12px;letter-spacing:.05em;color:var(--ink-2);background:var(--paper)}
+tr:last-child td{border-bottom:0}
+td.date{font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+select.status{font:inherit;font-size:12.5px;font-weight:700;border-radius:8px;padding:3px 6px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);cursor:pointer}
+select.status:focus-visible{outline:2px solid var(--accent)}
+select.status.s-draft{color:var(--st-draft)} select.status.s-review{color:var(--st-review)}
+select.status.s-approved{color:var(--st-approved)} select.status.s-scheduled{color:var(--st-scheduled)}
+select.status.s-posted{color:var(--st-posted)}
+label.pf{display:inline-flex;align-items:center;gap:3px;font-size:12px;color:var(--ink-2);margin-right:6px;cursor:pointer}
+label.pf input{accent-color:var(--accent);cursor:pointer}
+.summary{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 14px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;min-width:110px}
+.stat .num{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
+.stat .lbl{font-size:12px;color:var(--ink-2)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px}
+.filters button{font:inherit;font-size:13px;font-weight:600;border:1px solid var(--line);background:var(--card);
+  color:var(--ink-2);border-radius:999px;padding:5px 14px;cursor:pointer}
+.filters button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-theme="dark"] .filters button.on{color:#10201b}
+@media (prefers-color-scheme: dark){ .filters button.on{color:#10201b} }
+:root[data-theme="light"] .filters button.on{color:#fff}
+.script-card{margin:0 0 14px}
+.script-card .head{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.script-card h3{margin:0;font-size:15.5px}
+.script-card .jp-title{color:var(--ink-2);font-size:13px}
+.block{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:10px 0 0;
+  font-size:13.5px;white-space:pre-wrap;overflow-x:auto}
+.block .lb{display:block;font-size:11px;font-weight:800;letter-spacing:.08em;color:var(--accent-ink);margin-bottom:2px}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+button.copy{font:inherit;font-size:13px;font-weight:700;border:1px solid var(--accent);background:var(--accent-soft);
+  color:var(--accent-ink);border-radius:9px;padding:6px 14px;cursor:pointer}
+button.copy:hover{background:var(--accent);color:#fff}
+:root[data-theme="dark"] button.copy:hover{color:#10201b}
+@media (prefers-color-scheme: dark){ button.copy:hover{color:#10201b} }
+button.copy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.ghost{border-color:var(--line);background:var(--card);color:var(--ink-2)}
+details.howto{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:0 0 12px;box-shadow:var(--shadow)}
+details.howto summary{cursor:pointer;font-weight:700;padding:14px 18px;list-style:none;display:flex;align-items:center;gap:10px}
+details.howto summary::-webkit-details-marker{display:none}
+details.howto summary::after{content:"＋";margin-left:auto;color:var(--ink-2);font-weight:400}
+details.howto[open] summary::after{content:"－"}
+details.howto .body{padding:0 18px 16px;border-top:1px solid var(--line)}
+ol.steps{margin:12px 0 4px;padding-left:22px}
+ol.steps li{margin:6px 0}
+ul.plain{margin:8px 0;padding-left:20px}
+ul.plain li{margin:4px 0}
+.check{display:flex;gap:9px;align-items:flex-start;padding:7px 0;border-bottom:1px dashed var(--line);cursor:pointer}
+.check:last-child{border-bottom:0}
+.check input{accent-color:var(--accent);margin-top:5px;flex:none;cursor:pointer}
+.note{background:var(--accent-soft);border-radius:10px;padding:10px 14px;font-size:13.5px;margin:12px 0 0}
+.warn{border-left:4px solid var(--st-review);background:var(--card);border-radius:0 10px 10px 0;padding:10px 14px;font-size:13.5px;margin:12px 0 0}
+.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);opacity:0;pointer-events:none;
+  background:var(--ink);color:var(--paper);padding:9px 20px;border-radius:999px;font-size:13.5px;font-weight:700;
+  transition:opacity .25s,transform .25s}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (prefers-reduced-motion: reduce){ .toast{transition:none} }
+@media (max-width:640px){ main{padding:16px 14px 70px} header.top{padding:16px 14px 0} }
+</style>
+
+<header class="top">
+  <div class="brand">
+    <span class="logo">GS</span>
+    <div>
+      <h1>Genius Science 配信管理</h1>
+      <p>SNSリール配信の台本・カレンダー・手順を、この1ページで。進捗チェックは自動保存されます。</p>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="home" class="on">はじめに</button>
+    <button data-tab="cal">配信カレンダー</button>
+    <button data-tab="lib">台本ライブラリ</button>
+    <button data-tab="howto">投稿のやり方</button>
+    <button data-tab="rules">ルールブック</button>
+  </nav>
+</header>
+
+<main>
+<!-- ============ はじめに ============ -->
+<section class="tab on" id="tab-home">
+  <h2>このページの使い方</h2>
+  <div class="card">
+    <div class="step"><span class="n">1</span><div><b>台本を確認・承認する <span class="who ai">AI作成</span><span class="who">人が承認</span></b>
+      「配信カレンダー」タブで各投稿のステータスを <b>下書き → 承認済み</b> に変えるだけ。変更はこのブラウザに自動保存されます。</div></div>
+    <div class="step"><span class="n">2</span><div><b>動画を作る <span class="who">人</span></b>
+      「台本ライブラリ」の台本(30秒構成)どおりにCapCut等で制作。ファイル名はカレンダーの「動画ファイル名」に合わせます。</div></div>
+    <div class="step"><span class="n">3</span><div><b>予約投稿する <span class="who">人・週1回15分</span></b>
+      「投稿のやり方」タブの手順どおりに。キャプションは台本ライブラリの<b>コピーボタン1回</b>で貼り付けできます。</div></div>
+    <div class="step"><span class="n">4</span><div><b>FBグループへシェア <span class="who">人・1日30秒</span></b>
+      Facebookページの投稿を各グループへシェア(※グループの自動投稿はMeta社がAPIを廃止したため、どのツールでも不可。ここだけ手動です)。</div></div>
+    <div class="step"><span class="n">5</span><div><b>投稿できたらチェック <span class="who">人</span></b>
+      カレンダーの各プラットフォーム欄にチェック→ステータスを「配信済み」に。どこまで終わったか一目で分かります。</div></div>
+  </div>
+
+  <h2>今の状況</h2>
+  <div class="summary" id="homeSummary"></div>
+  <p class="muted">※このチェック状態はお使いのブラウザに保存されます。別のPCやスマホには引き継がれないので、チーム共有する場合は同じ端末を使うか、Googleスプレッドシート版(sns/content-calendar-batch1.csv)を正とする運用にしてください。</p>
+
+  <h2>配信の全体像</h2>
+  <div class="grid cols3">
+    <div class="card"><b>1動画5面展開</b><p class="muted" style="margin:6px 0 0">30秒縦動画(9:16)を1本作れば、FBページ・FBグループ・Instagram・TikTok・YouTubeショートに同じ動画で配信します。</p></div>
+    <div class="card"><b>週5本ペース</b><p class="muted" style="margin:6px 0 0">月・水・金は19:30〜20:00(仕事後の閲覧時間)、土・日は10:00(親子時間)に配信。</p></div>
+    <div class="card"><b>5つの柱</b><p style="margin:6px 0 0;font-size:13px">
+      <span class="pill pillA">A 科学</span> <span class="pill pillB">B 子育て</span> <span class="pill pillC">C マナー</span> <span class="pill pillD">D お金</span> <span class="pill pillE">E VN誇り</span></p>
+      <p class="muted" style="margin:6px 0 0">科学4割、他は各2割が目安。反応を見て調整します。</p></div>
+  </div>
+</section>
+
+<!-- ============ カレンダー ============ -->
+<section class="tab" id="tab-cal">
+  <h2>配信カレンダー(第1〜2弾・20投稿)</h2>
+  <div class="summary" id="calSummary"></div>
+  <div class="tablewrap">
+    <table id="calTable">
+      <thead><tr>
+        <th>配信日</th><th>柱</th><th>タイトル</th><th>ステータス</th>
+        <th>投稿先チェック</th><th>動画ファイル</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <p class="muted" style="margin-top:10px">ステータスの意味 — <b>下書き</b>: AIが作成した段階 / <b>確認待ち</b>: 修正依頼中 / <b>承認済み</b>: 動画制作OK / <b>予約済み</b>: 投稿ツールにセット完了 / <b>配信済み</b>: 全面に投稿完了。</p>
+  <div class="btns">
+    <button class="copy ghost" id="resetBtn">チェックをすべてリセット</button>
+  </div>
+</section>
+
+<!-- ============ 台本ライブラリ ============ -->
+<section class="tab" id="tab-lib">
+  <h2>台本ライブラリ(20本)</h2>
+  <p class="muted">柱で絞り込み → 「キャプションをコピー」でSNSの投稿文欄にそのまま貼り付けできます。台本(VN)は動画制作・ナレーション用です。</p>
+  <div class="filters" id="libFilters">
+    <button data-f="all" class="on">すべて</button>
+    <button data-f="A">A 科学</button>
+    <button data-f="B">B 子育て</button>
+    <button data-f="C">C マナー</button>
+    <button data-f="D">D お金</button>
+    <button data-f="E">E VN誇り</button>
+  </div>
+  <div id="libList"></div>
+</section>
+
+<!-- ============ 投稿のやり方 ============ -->
+<section class="tab" id="tab-howto">
+  <h2>最初の1回だけやる設定(所要30〜60分)</h2>
+  <div class="card" id="setupChecks">
+    <label class="check"><input type="checkbox" data-k="su1"><span><b>Facebookページを作る</b> — 個人アカウントではなく「ページ」。facebook.com → メニュー → ページ → 新規作成。名前は Genius Science。</span></label>
+    <label class="check"><input type="checkbox" data-k="su2"><span><b>Instagramをプロアカウントにする</b> — IGアプリ → 設定 → アカウントの種類とツール → プロアカウントに切り替え → ビジネス。</span></label>
+    <label class="check"><input type="checkbox" data-k="su3"><span><b>IGとFBページを連携する</b> — IG設定 → アカウントセンター → アカウントを追加。これでMeta Business Suiteから両方に予約投稿できます。</span></label>
+    <label class="check"><input type="checkbox" data-k="su4"><span><b>TikTokをビジネスアカウントにする</b> — プロフィール → 設定 → アカウント → ビジネスアカウントに切り替え(予約投稿機能が使えるようになります)。</span></label>
+    <label class="check"><input type="checkbox" data-k="su5"><span><b>YouTubeチャンネルを確認</b> — 講座配信用と分けるなら新チャンネルを作成。studio.youtube.com にログインできることを確認。</span></label>
+    <label class="check"><input type="checkbox" data-k="su6"><span><b>プロフィールを統一する</b> — 全アカウント同じアイコン・同じ自己紹介文・Zalo OA/申込リンクを設置。</span></label>
+    <label class="check"><input type="checkbox" data-k="su7"><span><b>投稿先のFBグループをリスト化</b> — 参加済みの子育て系グループの規約(宣伝可否)を確認してメモ。</span></label>
+  </div>
+
+  <h2>毎週の予約投稿手順(週1回・約15分)</h2>
+
+  <details class="howto"><summary>📘 Facebookページ + Instagram(Meta Business Suiteでまとめて予約・無料)</summary>
+    <div class="body"><ol class="steps">
+      <li>business.facebook.com を開く(スマホは「Meta Business Suite」アプリ)</li>
+      <li>左メニュー「プランナー」→「作成」→「リール」を選ぶ</li>
+      <li>動画ファイル(GS_reel_◯◯◯.mp4)をアップロード</li>
+      <li>このページの台本ライブラリで「キャプションをコピー」→ 貼り付け</li>
+      <li>「FacebookとInstagram両方」にチェックが入っていることを確認</li>
+      <li>「日時を指定」→ カレンダーの配信日・時刻を入力 → 予約</li>
+    </ol><p class="note">1回の操作でFBページとIGリールの両方に予約されます。5本まとめて仕込んでも10分程度。</p></div>
+  </details>
+
+  <details class="howto"><summary>🎵 TikTok(アプリ内予約 または PCから)</summary>
+    <div class="body"><ol class="steps">
+      <li>PCで tiktok.com にログイン → 右上「アップロード」</li>
+      <li>動画をアップロード → キャプションを貼り付け(ハッシュタグは5〜7個に絞る)</li>
+      <li>「スケジュール」をオンにして配信日時を指定 → 投稿</li>
+    </ol><p class="note">ビジネスアカウントなら最大30日先まで予約できます。</p></div>
+  </details>
+
+  <details class="howto"><summary>▶️ YouTubeショート(YouTube Studioで予約)</summary>
+    <div class="body"><ol class="steps">
+      <li>studio.youtube.com → 右上「作成」→「動画をアップロード」</li>
+      <li>動画を選択。タイトルは「Vì sao ...? | Genius Science #Shorts」の形</li>
+      <li>説明欄にキャプションを貼り付け(#Shorts を含める)</li>
+      <li>「子ども向け」設定: 保護者向けコンテンツなので「いいえ、子ども向けではありません」を選択</li>
+      <li>公開設定 →「スケジュールを設定」→ 配信日時を指定</li>
+    </ol></div>
+  </details>
+
+  <details class="howto"><summary>👥 Facebookグループへのシェア(毎日30秒・ここだけ手動)</summary>
+    <div class="body"><ol class="steps">
+      <li>配信当日、Facebookページの投稿を開く</li>
+      <li>「シェア」→「グループでシェア」→ グループを選択</li>
+      <li>一言添える: 「Chào cả nhà, hôm nay mình chia sẻ một mẹo nhỏ về nuôi dạy con nhé 💚」</li>
+    </ol><p class="warn">Meta社が2024年4月にグループ投稿APIを廃止したため、グループへの完全自動投稿はどのツールでも不可能です。この30秒だけは人の手で行います(その分、コミュニティとの信頼も育ちます)。</p></div>
+  </details>
+
+  <details class="howto"><summary>🚀 もっと自動化したくなったら(Phase 2〜3)</summary>
+    <div class="body">
+      <ul class="plain">
+        <li><b>Phase 2(月20ドル前後)</b>: Metricool や Buffer などの一元管理ツールを契約すると、FB・IG・TikTok・YTの4面を1画面から予約でき、分析レポートも出ます。</li>
+        <li><b>Phase 3(完全自動)</b>: n8n / Make.com で「スプレッドシートに台本追加 → AI動画生成 → 承認済みを検知 → 各SNSへ自動投稿」のパイプラインを構築できます。API申請(Meta・TikTok・YouTube)が必要になったら、このチャットでClaudeに「Phase 3を構築して」と伝えてください。設定ファイルと手順を作成します。</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- ============ ルールブック ============ -->
+<section class="tab" id="tab-rules">
+  <h2>30秒リールの黄金構成(全動画共通)</h2>
+  <div class="card">
+    <div class="step"><span class="n">①</span><div><b>0〜3秒 フック</b> — 「Tại sao...?」「Bạn có biết...?」の質問で始める。最初の1.5秒で大きなテロップ。</div></div>
+    <div class="step"><span class="n">②</span><div><b>3〜20秒 本体</b> — ポイントは最大3つ、または実験1つ。1文=1カット。テロップ必須(音なしでも伝わるように)。</div></div>
+    <div class="step"><span class="n">③</span><div><b>20〜27秒 価値</b> — 「なぜこれが保護者にとって大事か」を1文で。</div></div>
+    <div class="step"><span class="n">④</span><div><b>27〜30秒 CTA</b> — 「Theo dõi Genius Science — mỗi ngày một bí quyết nuôi dạy con!」+ロゴ。</div></div>
+  </div>
+
+  <h2>技術仕様</h2>
+  <div class="card"><ul class="plain">
+    <li>9:16縦型・1080×1920・30秒以内(全プラットフォーム共通で使い回し)</li>
+    <li>テロップはベトナム語・太めのゴシック体</li>
+    <li>BGMは各プラットフォームの商用可音源(TikTokは「ビジネス音源」のみ使用可)</li>
+    <li>子どもの顔を使う場合は保護者の書面許諾を必ず取得</li>
+  </ul></div>
+
+  <h2>ハッシュタグ標準セット</h2>
+  <div class="card">
+    <p style="margin:0 0 6px"><b>共通</b>: #GeniusScience #nuoidayconthongminh #giaoducsom #mevabe #daycon #treem</p>
+    <p style="margin:0 0 6px"><span class="pill pillA">A</span> #thinghiemtainha #STEM #khoahocvui　<span class="pill pillB">B</span> #montessori #kynangsong</p>
+    <p style="margin:0 0 6px"><span class="pill pillC">C</span> #lenghi #daoduc #netvanhoa　<span class="pill pillD">D</span> #giaoductaichinh #daycontieutien　<span class="pill pillE">E</span> #tuhaovietnam</p>
+    <p class="muted" style="margin:6px 0 0">使用数の目安: TikTok 5〜7個 / Instagram 10〜15個 / Facebook 3〜5個 / YouTube 2〜3個</p>
+  </div>
+
+  <h2>やってはいけないこと</h2>
+  <div class="card"><ul class="plain">
+    <li>医学的な断定(「IQが上がる」等)— 「研究では〜と言われています」の表現にとどめる</li>
+    <li>他国・他文化の否定 — マナー柱は「比較」ではなく「世界で通用する子への提案」として語る</li>
+    <li>金融商品のおすすめ — お金柱は習慣教育に限定</li>
+    <li>出典のない数値 — 数字を使う前に台本にソースをメモ</li>
+    <li>許諾のない子どもの顔出し</li>
+  </ul></div>
+
+  <h2>関連資料(GitHubリポジトリ genius-scinece/pro)</h2>
+  <div class="card"><ul class="plain">
+    <li>講座集(全37講座): giao-an-genius-science.txt / .html</li>
+    <li>SNS設計書: sns/README-sns-system.txt</li>
+    <li>台本原本: sns/reel-scripts-batch1.txt・batch2.txt</li>
+    <li>カレンダーCSV(スプレッドシート取込用): sns/content-calendar-batch1.csv</li>
+  </ul></div>
+</section>
+</main>
+
+<div class="toast" id="toast">コピーしました</div>
+
+<script>
+const CTA = `Theo dõi Genius Science — mỗi ngày một bí quyết nuôi dạy con!`;
+const PILLARS = {A:'A 科学', B:'B 子育て', C:'C マナー', D:'D お金', E:'E VN誇り'};
+const STATUSES = [['draft','下書き'],['review','確認待ち'],['approved','承認済み'],['scheduled','予約済み'],['posted','配信済み']];
+const PLATFORMS = [['fb','FBページ'],['gr','FBグループ'],['ig','Instagram'],['tt','TikTok'],['yt','YTショート']];
+
+const POSTS = [
+{id:1,date:'7/20',day:'月',time:'19:30',pf:'A',video:'GS_reel_001.mp4',note:'初回投稿・固定ポスト化推奨',
+ tVN:`Não bé đạt 90% trước 6 tuổi`,tJP:`なぜ5歳から科学？(脳の発達)`,
+ hookVN:`Bạn có biết? Não của trẻ đạt khoảng 90% kích thước người lớn trước 6 tuổi.`,hookJP:`ご存知ですか？子どもの脳は6歳までに大人の約90%の大きさに達します。`,
+ bodyVN:`Giai đoạn 3–6 tuổi là "thời kỳ vàng" của sự tò mò. Mỗi lần bé hỏi "Tại sao?", não bé đang tạo ra hàng nghìn kết nối mới. Khoa học không phải là môn học — mà là cách bé nhìn thế giới.`,
+ bodyJP:`3〜6歳は好奇心の黄金期。「なぜ？」と聞くたびに脳は何千もの新しい回路を作っています。科学は教科ではなく、世界の見方です。`,
+ valVN:`Đừng vội trả lời. Hãy hỏi lại: "Con nghĩ sao?" — đó là bài học khoa học đầu tiên.`,valJP:`すぐ答えないで。「どう思う？」と聞き返す — それが最初の科学の授業。`,
+ cap:`🧠 Não bé đạt 90% trước 6 tuổi — bạn đang tận dụng thời kỳ vàng chưa?
+・3–6 tuổi = thời kỳ vàng của tò mò
+・Mỗi câu "Tại sao?" = hàng nghìn kết nối não mới
+・Bí quyết: hỏi lại "Con nghĩ sao?"
+Bé nhà bạn hay hỏi "Tại sao?" về điều gì? Kể cho mình nghe nhé!
+#GeniusScience #giaoducsom #nuoidayconthongminh #khoahoccotre #STEM`},
+{id:2,date:'7/22',day:'水',time:'19:30',pf:'A',video:'GS_reel_002.mp4',note:'講座P5連動',
+ tVN:`Trứng nổi hay chìm?`,tJP:`30秒おうち実験:浮く？沈む？`,
+ hookVN:`Quả trứng này sẽ nổi hay chìm? Đoán thử xem!`,hookJP:`この卵、浮く？沈む？当ててみて！`,
+ bodyVN:`Thả vào nước thường — chìm! Nhưng thêm 3 thìa muối, khuấy đều… và nhìn này — trứng nổi lên! Vì nước muối "đặc" hơn, đẩy trứng lên mạnh hơn. Đây là lý do chúng ta nổi dễ hơn ở biển!`,
+ bodyJP:`真水では沈む！でも塩を大さじ3杯入れて混ぜると…浮いた！塩水は「濃い」から押し上げる力が強い。海で浮きやすいのも同じ理由！`,
+ valVN:`5 phút, 1 quả trứng, 1 bài học vật lý. Khoa học ở ngay trong bếp nhà bạn.`,valJP:`5分・卵1個で物理の授業。科学は台所にあります。`,
+ cap:`🥚 Thí nghiệm 5 phút: trứng nổi hay chìm?
+・Nước thường → chìm / Nước muối → nổi
+・Bé học về mật độ mà không cần sách
+・Thử ngay tối nay và quay lại kết quả nhé!
+#GeniusScience #thinghiemtainha #khoahocvui #STEM #daycon`},
+{id:3,date:'7/24',day:'金',time:'20:00',pf:'B',video:'GS_reel_003.mp4',note:'モンテッソーリ',
+ tVN:`Đừng trả lời ngay khi con hỏi "Tại sao?"`,tJP:`「なぜ？」に答えない子育て術`,
+ hookVN:`Khi con hỏi "Tại sao?", cha mẹ thông thái KHÔNG trả lời ngay.`,hookJP:`子どもが「なぜ？」と聞いたとき、賢い親はすぐに答えません。`,
+ bodyVN:`3 bước theo phương pháp Montessori: Một — hỏi lại: "Con nghĩ sao?". Hai — cùng thử: "Mình làm thử xem nhé?". Ba — cùng tra cứu: "Mình tìm hiểu cùng nhau nào". Câu trả lời không quan trọng bằng hành trình đi tìm nó.`,
+ bodyJP:`モンテッソーリ式3ステップ: ①聞き返す②一緒に試す③一緒に調べる。答えより、答えを探す旅が大事。`,
+ valVN:`Trẻ được "cùng suy nghĩ" sẽ thành người lớn biết tự suy nghĩ.`,valJP:`「一緒に考えてもらった」子は、自分で考えられる大人になる。`,
+ cap:`💡 Con hỏi "Tại sao?" — bạn trả lời ngay hay hỏi lại?
+・Bước 1: "Con nghĩ sao?"
+・Bước 2: "Mình thử xem nhé?"
+・Bước 3: "Cùng tìm hiểu nào!"
+Bạn thường làm bước nào? Comment nhé!
+#GeniusScience #montessori #nuoidayconthongminh #kynangsong #daycon`},
+{id:4,date:'7/25',day:'土',time:'10:00',pf:'C',video:'GS_reel_004.mp4',note:'',
+ tVN:`Xếp giày — 3 giây mỗi ngày`,tJP:`靴をそろえる—日本式マナーの入口`,
+ hookVN:`Ở Nhật, trẻ 3 tuổi đã làm điều này mỗi ngày — chỉ mất 3 giây.`,hookJP:`日本では3歳の子が毎日していること — たった3秒。`,
+ bodyVN:`Xếp gọn đôi giày, mũi hướng ra ngoài. Hành động nhỏ này dạy bé 3 điều: sự chu đáo với người sau, thói quen ngăn nắp, và sự "chuyển đổi" — bước vào nhà với tâm thế mới. Không cần la mắng, chỉ cần cha mẹ làm mẫu mỗi ngày.`,
+ bodyJP:`靴をそろえ、つま先を外へ。心配り・整頓・切り替えの3つを教える。叱らず、親が毎日やって見せるだけ。`,
+ valVN:`Lễ nghi không phải của riêng nước Nhật — đó là "hộ chiếu" để con tự tin ở bất cứ đâu trên thế giới.`,valJP:`マナーは世界で通用する子の「パスポート」。`,
+ cap:`👟 3 giây mỗi ngày — thói quen nhỏ, nhân cách lớn
+・Xếp giày = chu đáo + ngăn nắp + chuyển đổi tâm thế
+・Bí quyết: cha mẹ làm mẫu, không cần nhắc nhở
+・Chuẩn mực toàn cầu bắt đầu từ cửa nhà bạn
+#GeniusScience #lenghi #daoduc #kieuNhat #daycon #kynangsong`},
+{id:5,date:'7/26',day:'日',time:'10:00',pf:'D',video:'GS_reel_005.mp4',note:'',
+ tVN:`3 chiếc hộp tiền của bé`,tJP:`3つの貯金箱—5歳からのお金教育`,
+ hookVN:`Trẻ 5 tuổi đã có thể học quản lý tiền — bằng 3 chiếc hộp.`,hookJP:`5歳からお金の管理は学べます — 箱3つで。`,
+ bodyVN:`Hộp 1 — TIÊU: mua thứ con muốn. Hộp 2 — TIẾT KIỆM: để dành cho mục tiêu lớn hơn. Hộp 3 — CHO ĐI: giúp đỡ người khác. Khi có tiền lì xì hay tiền thưởng, để bé TỰ chia vào 3 hộp. Quyền quyết định chính là bài học.`,
+ bodyJP:`つかう・ためる・ゆずるの3箱。お年玉は子ども自身に分けさせる。決める権利こそが授業。`,
+ valVN:`Không phải số tiền — mà là thói quen "chia trước khi tiêu" sẽ theo con cả đời.`,valJP:`金額でなく「使う前に分ける」習慣が一生の財産。`,
+ cap:`💰 3 chiếc hộp thay đổi tương lai tài chính của con
+・TIÊU – TIẾT KIỆM – CHO ĐI
+・Bé tự quyết định cách chia = bài học lớn nhất
+・Bắt đầu từ tiền lì xì gần nhất nhé!
+Nhà bạn đã dạy con về tiền chưa? Chia sẻ kinh nghiệm nhé!
+#GeniusScience #giaoductaichinh #daycontieutien #nuoidayconthongminh`},
+{id:6,date:'7/27',day:'月',time:'19:30',pf:'C',video:'GS_reel_006.mp4',note:'',
+ tVN:`Itadakimasu — bài học biết ơn`,tJP:`「いただきます」の心—食への感謝`,
+ hookVN:`Vì sao trẻ em Nhật chắp tay nói một câu trước MỖI bữa ăn?`,hookJP:`なぜ日本の子どもは毎食前に手を合わせて一言いうの？`,
+ bodyVN:`"Itadakimasu" nghĩa là "Con xin nhận sự sống này". Cảm ơn cây lúa, cảm ơn chú nông dân, cảm ơn mẹ đã nấu. Ở Việt Nam mình cũng có lời mời cơm đầy lễ phép. Trước bữa ăn, hãy cùng bé kể: món này từ đâu đến? Ai đã làm ra nó?`,
+ bodyJP:`「いただきます」=「命をいただきます」。ベトナムのmời cơm文化と重ね ,食前に「この料理はどこから？」と話す。`,
+ valVN:`Lòng biết ơn không dạy bằng lời mắng — mà bằng 10 giây trước bữa ăn mỗi ngày.`,valJP:`感謝は毎日の食前10秒で育つ。`,
+ cap:`🍚 "Itadakimasu" — bài học biết ơn 10 giây mỗi ngày
+・Cảm ơn sự sống, người trồng, người nấu
+・Kết hợp với nét đẹp "mời cơm" của Việt Nam
+・Hỏi bé: món này từ đâu đến?
+#GeniusScience #daoduc #lenghi #daycon #netvanhoa`},
+{id:7,date:'7/29',day:'水',time:'19:30',pf:'E',video:'GS_reel_007.mp4',note:'講座G3連動',
+ tVN:`Vì sao Mekong màu nâu?`,tJP:`メコン川は天然の理科教室`,
+ hookVN:`Vì sao nước sông Mekong có màu nâu? Không phải vì bẩn đâu!`,hookJP:`メコン川の水はなぜ茶色？汚れているからではありません！`,
+ bodyVN:`Màu nâu đó là phù sa — hàng triệu hạt đất mịn được dòng sông mang từ núi cao về. Chính phù sa này bồi đắp nên Đồng bằng sông Cửu Long — vựa lúa nuôi cả nước. Thí nghiệm tại nhà: khuấy đất vào cốc nước, để yên và xem các lớp lắng xuống!`,
+ bodyJP:`茶色の正体は沖積土。それがメコンデルタ=国を養う米どころを作った。おうちで地層の沈殿実験も。`,
+ valVN:`Dạy con yêu Việt Nam — bắt đầu từ việc hiểu vì sao đất nước mình tuyệt vời như vậy.`,valJP:`「なぜ自分の国がすごいのか」の理解から愛国心へ。`,
+ cap:`🌊 Màu nâu của Mekong = món quà từ núi cao
+・Phù sa bồi đắp nên vựa lúa Cửu Long
+・Thí nghiệm lắng đọng ngay tại nhà
+・Khoa học + tự hào Việt Nam trong 30 giây
+#GeniusScience #tuhaovietnam #khoahocvui #thinghiemtainha #mekong`},
+{id:8,date:'7/31',day:'金',time:'20:00',pf:'D',video:'GS_reel_008.mp4',note:'',
+ tVN:`Muốn hay Cần?`,tJP:`欲しいと必要—スーパーでお金教育`,
+ hookVN:`Ở siêu thị, một câu hỏi này giúp con bạn giỏi quản lý tiền cả đời.`,hookJP:`スーパーでのある一言が、子どもを一生お金上手にします。`,
+ bodyVN:`Khi bé đòi mua đồ, đừng nói "Không" ngay. Hãy hỏi: "Cái này con MUỐN hay con CẦN?". Cần = không có thì sinh hoạt khó khăn. Muốn = có thì vui. Muốn không xấu! Nhưng biết phân biệt là bước đầu của mọi quyết định tài chính.`,
+ bodyJP:`「それは欲しいもの？必要なもの？」。欲しいは悪くない、区別できることが第一歩。`,
+ valVN:`Mỗi lần đi siêu thị là một buổi học tài chính miễn phí.`,valJP:`スーパーに行くたびが無料のお金の授業。`,
+ cap:`🛒 "Muốn hay Cần?" — câu hỏi vàng ở siêu thị
+・Cần = thiết yếu / Muốn = niềm vui
+・Muốn không xấu, nhưng phải biết phân biệt
+・Thử ngay lần đi chợ tới nhé!
+#GeniusScience #giaoductaichinh #daycontieutien #daycon`},
+{id:9,date:'8/1',day:'土',time:'10:00',pf:'B',video:'GS_reel_009.mp4',note:'講座XP1連動',
+ tVN:`Thất bại = dữ liệu!`,tJP:`失敗は実験—試行錯誤する子の育て方`,
+ hookVN:`Máy bay giấy của bé rơi ngay lập tức? Xin chúc mừng!`,hookJP:`紙飛行機がすぐ落ちた？おめでとうございます！`,
+ bodyVN:`Vì bé vừa có dữ liệu đầu tiên! Nhà khoa học không nói "thất bại" — họ nói "kết quả". Hãy hỏi bé: "Lần này khác gì lần trước?", "Thử đổi cách gấp xem?". Sai → thử lại → tốt hơn. Đó chính là tư duy khoa học.`,
+ bodyJP:`科学者は「失敗」でなく「結果」と言う。間違える→やり直す→良くなる、が科学的思考。`,
+ valVN:`Trẻ không sợ sai sẽ dám thử mọi thứ — ở trường, và cả trong cuộc đời.`,valJP:`間違いを恐れない子は何にでも挑戦できる。`,
+ cap:`✈️ Con thất bại? Đó là "dữ liệu", không phải thất bại!
+・Nhà khoa học không nói thất bại, họ nói kết quả
+・Câu thần chú: "Lần này khác gì lần trước?"
+・Sai → Thử lại → Tốt hơn
+#GeniusScience #nuoidayconthongminh #kynangsong #STEM #montessori`},
+{id:10,date:'8/2',day:'日',time:'10:00',pf:'A',video:'GS_reel_010.mp4',note:'講座C5連動',
+ tVN:`Phép thuật bắp cải tím`,tJP:`魔法の色水—紫キャベツで大変身`,
+ hookVN:`Nước bắp cải tím + chanh = phép thuật! Xem màu đổi ngay trước mắt.`,hookJP:`紫キャベツの水+ライム=魔法！目の前で色が変わる。`,
+ bodyVN:`Bắp cải tím thái nhỏ, ngâm nước — được "nước thần" màu tím. Vắt chanh vào: chuyển HỒNG! Thêm chút xà phòng: chuyển XANH! Vì nước bắp cải đổi màu theo tính axit hay kiềm. Bé 5 tuổi cũng làm được, với sự giám sát của bố mẹ.`,
+ bodyJP:`ライムでピンク、石けんで青に。酸性・アルカリ性で色が変わる。5歳でも親の見守りでOK。`,
+ valVN:`Đừng nói "hóa học khó lắm" — hãy để bé thấy hóa học đẹp thế nào.`,valJP:`「化学は難しい」の前に、化学の美しさを見せる。`,
+ cap:`🌈 Phép thuật từ 1/4 cây bắp cải tím
+・Chanh → hồng / Xà phòng → xanh
+・Bài học axit – kiềm đầu tiên của bé
+・Lưu lại để cuối tuần làm cùng con nhé!
+#GeniusScience #thinghiemtainha #khoahocvui #STEM #daycon`},
+{id:11,date:'8/3',day:'月',time:'19:30',pf:'A',video:'GS_reel_011.mp4',note:'講座G5連動',
+ tVN:`Tạo mây trong chai`,tJP:`ペットボトルで雲を作る`,
+ hookVN:`Bạn có thể tạo ra MÂY ngay trong chai nhựa — thật đấy!`,hookJP:`ペットボトルの中に雲が作れます — 本当に！`,
+ bodyVN:`Cho một ít nước vào chai, lắc mạnh. Thêm một chút khói nhang (bố mẹ làm nhé), đậy nắp. Bóp chai — thả tay — và nhìn kìa! Mây xuất hiện! Vì hơi nước gặp khói và thay đổi áp suất sẽ ngưng tụ thành những giọt li ti — giống hệt mây trên trời.`,
+ bodyJP:`水+線香の煙+ボトルを押して放す=雲。空の雲と同じしくみ。火は大人が担当。`,
+ valVN:`Bầu trời Việt Nam mùa mưa chính là phòng thí nghiệm lớn nhất của bé.`,valJP:`雨季のベトナムの空こそ最大の実験室。`,
+ cap:`☁️ Tạo mây trong chai — 2 phút, đồ có sẵn trong nhà
+・Nước + khói nhang + bóp chai = mây!
+・Bé hiểu mây hình thành thế nào
+・Phần dùng lửa bố mẹ thực hiện nhé
+#GeniusScience #thinghiemtainha #khoahocvui #STEM #daycon`},
+{id:12,date:'8/5',day:'水',time:'19:30',pf:'A',video:'GS_reel_012.mp4',note:'講座G4連動',
+ tVN:`Bóng dài, bóng ngắn`,tJP:`影はなぜ伸びたり縮んだり？`,
+ hookVN:`Buổi sáng bóng của con dài ơi là dài — buổi trưa lại biến đâu mất?`,hookJP:`朝は影があんなに長いのに、お昼はどこへ消えた？`,
+ bodyVN:`Vì Mặt trời thấp → ánh sáng chiếu nghiêng → bóng dài. Mặt trời lên cao → bóng ngắn lại. Thử ngay: sáng – trưa – chiều, cùng bé vẽ lại bóng của một món đồ chơi trên sân. Bóng "di chuyển" như kim đồng hồ đấy!`,
+ bodyJP:`太陽が低い→影が長い、高い→短い。朝昼夕に影をなぞると時計の針のように動く！`,
+ valVN:`Người xưa xem giờ bằng bóng nắng — con bạn cũng có thể làm "đồng hồ mặt trời" của riêng mình.`,valJP:`昔の人は影で時間を知った。わが子の日時計づくりへ。`,
+ cap:`☀️ Bóng của bé là chiếc đồng hồ thiên nhiên
+・Mặt trời thấp = bóng dài / cao = bóng ngắn
+・Vẽ bóng 3 lần trong ngày và so sánh
+・Việt Nam nắng quanh năm = lớp học miễn phí
+#GeniusScience #thinghiemtainha #khoahocvui #daycon`},
+{id:13,date:'8/7',day:'金',time:'20:00',pf:'B',video:'GS_reel_015.mp4',note:'',
+ tVN:`"Bình luận viên" trong nhà`,tJP:`語彙が爆発する実況中継の子育て`,
+ hookVN:`Muốn con giỏi ngôn ngữ? Hãy làm "bình luận viên" trong nhà bạn.`,hookJP:`言葉が得意な子に？おうちの「実況アナウンサー」になろう。`,
+ bodyVN:`Rất đơn giản: nói thành lời những gì bạn và bé đang làm. "Mẹ đang cắt cà rốt — cam thật! Cứng quá!" "Con đang xếp khối gỗ lên cao — một, hai, ba tầng!". Trẻ nghe từ mới trong đúng ngữ cảnh sẽ nhớ nhanh gấp nhiều lần so với học thuộc.`,
+ bodyJP:`親子の行動をそのまま言葉にする実況。文脈の中の新出語は暗記よりはるかに速く定着。`,
+ valVN:`Không cần app đắt tiền — giọng nói của cha mẹ là giáo trình ngôn ngữ tốt nhất.`,valJP:`高いアプリ不要、親の声こそ最高の教材。`,
+ cap:`🗣️ "Bình luận viên" 5 phút mỗi ngày = kho từ vựng khổng lồ
+・Nói to điều bạn đang làm cùng bé
+・Từ mới + ngữ cảnh = nhớ lâu
+・Thử ngay trong bếp tối nay!
+#GeniusScience #montessori #kynangsong #nuoidayconthongminh`},
+{id:14,date:'8/8',day:'土',time:'10:00',pf:'C',video:'GS_reel_017.mp4',note:'',
+ tVN:`Xếp hàng & đúng giờ`,tJP:`列に並ぶ・時間を守る`,
+ hookVN:`Ở Nhật, tàu điện trễ 1 phút cũng có lời xin lỗi. Vì sao họ làm được vậy?`,hookJP:`日本では電車が1分遅れても謝罪。なぜできる？`,
+ bodyVN:`Bí mật không phải là "kỷ luật thép" — mà là thói quen từ nhỏ: xếp hàng chờ đến lượt, đến hẹn sớm 5 phút, dọn xong mới chuyển trò chơi khác. Với trẻ 5 tuổi, hãy bắt đầu bằng trò chơi: "Ai xếp hàng đẹp nhất nào?" — biến quy tắc thành niềm vui.`,
+ bodyJP:`鉄の規律ではなく幼少期の習慣。5歳には「一番きれいに並べるのは誰？」の遊びから。`,
+ valVN:`Đúng giờ và biết chờ đợi — tấm "danh thiếp" khiến cả thế giới tin tưởng con bạn.`,valJP:`時間を守り待てることは世界から信頼される「名刺」。`,
+ cap:`⏰ Xếp hàng & đúng giờ — dạy bằng trò chơi, không bằng la mắng
+・Chờ đến lượt = tôn trọng người khác
+・Sớm 5 phút = tôn trọng thời gian
+・Bắt đầu từ trò chơi xếp hàng ở nhà
+#GeniusScience #lenghi #daoduc #kieuNhat #kynangsong`},
+{id:15,date:'8/9',day:'日',time:'10:00',pf:'D',video:'GS_reel_019.mp4',note:'',
+ tVN:`Việc nhà có nên trả tiền?`,tJP:`お手伝いとお金—正しいつなぎ方`,
+ hookVN:`Trả tiền cho con khi làm việc nhà — NÊN hay KHÔNG?`,hookJP:`お手伝いにお金を払う — アリ？ナシ？`,
+ bodyVN:`Gợi ý từ giáo dục Nhật Bản: chia làm 2 loại. Việc của gia đình (dọn bát, gấp quần áo) — KHÔNG trả tiền, vì con là một thành viên. Việc "đặc biệt" (rửa xe, nhổ cỏ vườn) — CÓ thể trả công, để con trải nghiệm "lao động tạo ra giá trị". Ranh giới rõ ràng chính là bài học.`,
+ bodyJP:`家族の仕事=無償(家族の一員)、特別な仕事=報酬OK(労働の価値の体験)。線引きが授業。`,
+ valVN:`Con học được 2 điều cùng lúc: trách nhiệm không cần thưởng, và giá trị của lao động.`,valJP:`報酬のいらない責任と労働の価値を同時に学ぶ。`,
+ cap:`🧹 Việc nhà có nên trả tiền? Câu trả lời là… CẢ HAI
+・Việc gia đình → không trả (trách nhiệm)
+・Việc đặc biệt → trả công (giá trị lao động)
+・Nhà bạn phân loại thế nào? Comment nhé!
+#GeniusScience #giaoductaichinh #daycontieutien #daycon`},
+{id:16,date:'8/10',day:'月',time:'19:30',pf:'A',video:'GS_reel_013.mp4',note:'講座B1連動',
+ tVN:`Đánh thức hạt giống`,tJP:`種は生きている！綿の上の奇跡`,
+ hookVN:`Hạt đậu khô như viên sỏi này… đang NGỦ. Và mình sẽ đánh thức nó!`,hookJP:`石ころみたいな乾いた豆…実は眠っています。今から起こします！`,
+ bodyVN:`Đặt bông gòn vào hộp, thấm nước, rải hạt lên. Đặt gần cửa sổ. Ngày 1: chưa có gì. Ngày 3: vỏ nứt, rễ trắng nhú ra! Ngày 5: lá xanh đầu tiên! Không cần đất — chỉ cần nước, không khí và sự kiên nhẫn của bé.`,
+ bodyJP:`脱脂綿+水+窓辺。3日目に白い根、5日目に緑の葉。土は不要、必要なのは根気。`,
+ valVN:`Mỗi sáng tưới nước 1 phút — bé học được trách nhiệm và sự sống.`,valJP:`毎朝1分の水やりで責任と命を学ぶ。`,
+ cap:`🌱 Đánh thức hạt giống — thí nghiệm 5 ngày
+・Chỉ cần bông gòn + nước + cửa sổ
+・Bé làm "nhật ký mầm cây" bằng hình vẽ
+・Kiên nhẫn là bài học lớn nhất
+#GeniusScience #thinghiemtainha #STEM #montessori #daycon`},
+{id:17,date:'8/12',day:'水',time:'19:30',pf:'E',video:'GS_reel_014.mp4',note:'講座G2連動',
+ tVN:`Cát = đá quý tí hon`,tJP:`砂は小さな宝石`,
+ hookVN:`Nhìn cát qua kính lúp — bạn sẽ không tin vào mắt mình!`,hookJP:`砂をルーペで見ると — 目を疑いますよ！`,
+ bodyVN:`Cát không phải màu "nâu" — mà là hàng nghìn viên đá tí hon: hạt trong suốt như pha lê, hạt đen bóng, hạt hồng… Mỗi hạt cát từng là một tảng đá lớn, được sông và sóng biển mài nhỏ qua hàng nghìn năm. Bãi biển Việt Nam mình chính là bảo tàng đá khổng lồ!`,
+ bodyJP:`砂は何千もの小さな石の集まり。どの粒もかつては大岩。ベトナムのビーチは巨大な岩の博物館！`,
+ valVN:`Một chiếc kính lúp nhỏ biến chuyến đi biển thành giờ học địa chất.`,valJP:`ルーペ1つで海水浴が地質学の授業に。`,
+ cap:`🔍 Cát = hàng nghìn viên đá quý tí hon
+・Mang kính lúp đi biển cuối tuần này nhé
+・Hỏi bé: hạt nào tròn nhất? Vì sao tròn?
+・Đá lớn → sóng mài → cát: hành trình nghìn năm
+#GeniusScience #tuhaovietnam #khoahocvui #thinghiemtainha`},
+{id:18,date:'8/14',day:'金',time:'20:00',pf:'B',video:'GS_reel_016.mp4',note:'モンテッソーリ',
+ tVN:`Đừng cắt đứt sự tập trung`,tJP:`集中している子をじゃましない勇気`,
+ hookVN:`Khi con đang chăm chú chơi — điều tốt nhất cha mẹ làm là… KHÔNG làm gì cả.`,hookJP:`子どもが夢中のとき、親の最善は…何もしないこと。`,
+ bodyVN:`Montessori gọi đó là "sự tập trung thiêng liêng". Mỗi lần ta xen vào — "Giỏi quá!", "Uống nước không con?" — dòng tập trung bị cắt đứt. Hãy quan sát trong im lặng, đợi bé tự ngẩng lên rồi mới trò chuyện. Khen sau, không khen giữa chừng.`,
+ bodyJP:`「神聖な集中」を口出しで切らない。静かに観察→待つ→後で褒める。`,
+ valVN:`Khả năng tập trung 15 phút lúc 5 tuổi = nền tảng học tập cả đời.`,valJP:`5歳の15分の集中力は一生の学習の土台。`,
+ cap:`🤫 Đừng cắt đứt "sự tập trung thiêng liêng" của con
+・Không xen ngang khi bé đang chăm chú
+・Quan sát im lặng → chờ → khen sau
+・Tập trung là cơ bắp: càng luyện càng khỏe
+#GeniusScience #montessori #nuoidayconthongminh #kynangsong`},
+{id:19,date:'8/15',day:'土',time:'10:00',pf:'C',video:'GS_reel_018.mp4',note:'',
+ tVN:`Cảm ơn & Xin lỗi — cha mẹ nói trước`,tJP:`ありがとう・ごめんねを親が言う`,
+ hookVN:`Muốn con biết nói "Cảm ơn" và "Xin lỗi"? Có một cách không cần dạy.`,hookJP:`感謝と謝罪が言える子に？教えなくていい方法がある。`,
+ bodyVN:`Đó là: cha mẹ nói trước. "Cảm ơn con đã lấy giúp mẹ chiếc khăn." "Mẹ xin lỗi, mẹ đã hiểu lầm con." Trẻ không học từ bài giảng — trẻ "sao chép" người mình yêu nhất. Ở Nhật, cha mẹ cúi đầu cảm ơn cả con mình — và đứa trẻ lớn lên thành người biết trân trọng.`,
+ bodyJP:`親が先に言う。子は講義でなく、一番好きな人をコピーして学ぶ。`,
+ valVN:`Lời cảm ơn bạn nói với con hôm nay sẽ quay về với bạn sau 20 năm.`,valJP:`今日の「ありがとう」は20年後に返ってくる。`,
+ cap:`💗 Trẻ không nghe lời dạy — trẻ sao chép hành động
+・Cảm ơn con, xin lỗi con — nói trước làm gương
+・Áp dụng cả với ông bà, hàng xóm
+・Nhân cách = bản sao của gia đình
+#GeniusScience #daoduc #lenghi #daycon #netvanhoa`},
+{id:20,date:'8/16',day:'日',time:'10:00',pf:'D',video:'GS_reel_020.mp4',note:'',
+ tVN:`1 hôm nay hay 3 tuần sau?`,tJP:`待てる子はお金に強い子`,
+ hookVN:`Hôm nay 1 cái kẹo, hay tuần sau 3 cái? Câu hỏi nhỏ — bài học lớn.`,hookJP:`今日1個？来週3個？小さな質問、大きな授業。`,
+ bodyVN:`Khả năng "chờ để nhận phần thưởng lớn hơn" là nền tảng của tiết kiệm và đầu tư sau này. Cách luyện: đặt mục tiêu nhỏ có thể nhìn thấy — "Để dành đủ 10 nghìn thì mua cuốn truyện con thích". Dán hình cuốn truyện lên hộp tiết kiệm. Mỗi lần bỏ tiền vào, cùng đếm với con.`,
+ bodyJP:`待つ力は貯蓄と投資の土台。見える小さな目標+貯金箱に写真+入れるたび一緒に数える。`,
+ valVN:`Không phải dạy con nhịn — mà dạy con chọn điều tốt hơn ở tương lai.`,valJP:`我慢でなく「未来のより良い選択」を教える。`,
+ cap:`🍬 Trẻ biết chờ = người lớn biết quản lý tiền
+・Mục tiêu nhỏ + nhìn thấy được (dán ảnh lên hộp)
+・Cùng đếm mỗi lần bỏ tiền vào
+・Chờ đợi = kỹ năng, luyện được!
+#GeniusScience #giaoductaichinh #daycontieutien #kynangsong`}
+];
+
+/* ---------- 状態管理 ---------- */
+const store = {
+  get(){ try{return JSON.parse(localStorage.getItem('gs-sns')||'{}')}catch(e){return{}} },
+  set(d){ localStorage.setItem('gs-sns', JSON.stringify(d)) }
+};
+function getPost(id){ return (store.get().posts||{})[id]||{} }
+function setPost(id, patch){ const d=store.get(); d.posts=d.posts||{}; d.posts[id]=Object.assign({},d.posts[id]||{},patch); store.set(d); refreshSummaries(); }
+
+/* ---------- タブ ---------- */
+const tabs=document.getElementById('tabs');
+tabs.addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b)return;
+  tabs.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('on',s.id==='tab-'+b.dataset.tab));
+  window.scrollTo({top:0});
+});
+
+/* ---------- トースト ---------- */
+let toastT;
+function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show');
+  clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),1600); }
+function copyText(txt,msg){ navigator.clipboard.writeText(txt).then(()=>toast(msg||'コピーしました')).catch(()=>{
+  const ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select();
+  document.execCommand('copy'); ta.remove(); toast(msg||'コピーしました'); }); }
+
+/* ---------- カレンダー描画 ---------- */
+function renderCal(){
+  const tb=document.querySelector('#calTable tbody'); tb.innerHTML='';
+  POSTS.forEach(p=>{
+    const st=getPost(p.id).status||'draft';
+    const tr=document.createElement('tr');
+    const pfHtml=PLATFORMS.map(([k,lb])=>{
+      const ck=!!(getPost(p.id)[k]);
+      return `<label class="pf"><input type="checkbox" data-id="${p.id}" data-k="${k}" ${ck?'checked':''}>${lb}</label>`;
+    }).join('');
+    tr.innerHTML=`<td class="date">${p.date}(${p.day}) ${p.time}</td>
+      <td><span class="pill pill${p.pf}">${PILLARS[p.pf]}</span></td>
+      <td style="white-space:normal;min-width:200px"><b>${p.tVN}</b><br><span class="muted">${p.tJP}${p.note?' ・'+p.note:''}</span></td>
+      <td><select class="status s-${st}" data-id="${p.id}">${STATUSES.map(([v,l])=>`<option value="${v}" ${v===st?'selected':''}>${l}</option>`).join('')}</select></td>
+      <td>${pfHtml}</td>
+      <td class="date">${p.video}</td>`;
+    tb.appendChild(tr);
+  });
+}
+document.querySelector('#calTable').addEventListener('change',e=>{
+  const el=e.target;
+  if(el.matches('select.status')){ setPost(+el.dataset.id,{status:el.value});
+    el.className='status s-'+el.value; }
+  if(el.matches('input[type=checkbox]')){ setPost(+el.dataset.id,{[el.dataset.k]:el.checked}); }
+});
+document.getElementById('resetBtn').addEventListener('click',()=>{
+  if(confirm('すべてのステータスとチェックを初期状態(下書き)に戻します。よろしいですか？')){
+    const d=store.get(); delete d.posts; store.set(d); renderCal(); refreshSummaries(); toast('リセットしました');
+  }
+});
+
+/* ---------- サマリー ---------- */
+function refreshSummaries(){
+  const counts={draft:0,review:0,approved:0,scheduled:0,posted:0};
+  POSTS.forEach(p=>{ counts[getPost(p.id).status||'draft']++; });
+  const html=STATUSES.map(([v,l])=>`<div class="stat"><div class="num" style="color:var(--st-${v})">${counts[v]}</div><div class="lbl">${l}</div></div>`).join('');
+  document.getElementById('calSummary').innerHTML=html;
+  document.getElementById('homeSummary').innerHTML=html;
+}
+
+/* ---------- 台本ライブラリ ---------- */
+let libFilter='all';
+function renderLib(){
+  const wrap=document.getElementById('libList'); wrap.innerHTML='';
+  POSTS.filter(p=>libFilter==='all'||p.pf===libFilter).forEach(p=>{
+    const full=`【HOOK 0-3s】\n${p.hookVN}\n\n【BODY 3-20s】\n${p.bodyVN}\n\n【VALUE 20-27s】\n${p.valVN}\n\n【CTA 27-30s】\n${CTA}`;
+    const card=document.createElement('div'); card.className='card script-card';
+    card.innerHTML=`
+      <div class="head"><span class="pill pill${p.pf}">${PILLARS[p.pf]}</span>
+        <h3>台本${String(p.id).padStart(2,'0')}. ${p.tVN}</h3><span class="jp-title">${p.tJP}</span></div>
+      <div class="block"><span class="lb">フック(0-3秒)</span>${p.hookVN}\n<span class="muted">JP: ${p.hookJP}</span></div>
+      <div class="block"><span class="lb">本体(3-20秒)</span>${p.bodyVN}\n<span class="muted">JP: ${p.bodyJP}</span></div>
+      <div class="block"><span class="lb">価値(20-27秒) + CTA</span>${p.valVN}\n${CTA}\n<span class="muted">JP: ${p.valJP}</span></div>
+      <div class="block"><span class="lb">キャプション + ハッシュタグ</span>${p.cap}</div>
+      <div class="btns">
+        <button class="copy" data-act="cap">キャプションをコピー</button>
+        <button class="copy ghost" data-act="script">台本(VN)をコピー</button>
+      </div>`;
+    card.querySelector('[data-act=cap]').addEventListener('click',()=>copyText(p.cap,'キャプションをコピーしました — 投稿画面に貼り付けてください'));
+    card.querySelector('[data-act=script]').addEventListener('click',()=>copyText(full,'台本(VN)をコピーしました'));
+    wrap.appendChild(card);
+  });
+}
+document.getElementById('libFilters').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b)return;
+  libFilter=b.dataset.f;
+  document.querySelectorAll('#libFilters button').forEach(x=>x.classList.toggle('on',x===b));
+  renderLib();
+});
+
+/* ---------- 初期設定チェック ---------- */
+const su=document.getElementById('setupChecks');
+(function(){ const d=store.get().setup||{};
+  su.querySelectorAll('input').forEach(i=>{ i.checked=!!d[i.dataset.k]; }); })();
+su.addEventListener('change',e=>{
+  const d=store.get(); d.setup=d.setup||{}; d.setup[e.target.dataset.k]=e.target.checked; store.set(d);
+});
+
+renderCal(); renderLib(); refreshSummaries();
+</script>

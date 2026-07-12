@@ -1,0 +1,280 @@
+GENIUS SCIENCE — 30秒リール台本 第1弾(10本)
+（VN=読み上げ・テロップ用 / JP=運営確認用）
+
+■使い方: 各台本は「フック→本体→価値→CTA」の30秒構成。
+  [画面]はテロップ・映像指示。CTAは全本共通で末尾に記載。
+
+★共通CTA(27〜30秒)
+  【VN】Theo dõi Genius Science — mỗi ngày một bí quyết nuôi dạy con!
+  【JP】Genius Scienceをフォロー — 毎日ひとつ、子育てのヒントを。
+
+────────────────────────────
+台本01｜柱A｜なぜ5歳から科学？(脳の発達)
+────────────────────────────
+0-3s フック
+  【VN】Bạn có biết? Não của trẻ đạt khoảng 90% kích thước người lớn
+        trước 6 tuổi.
+  【JP】ご存知ですか？子どもの脳は6歳までに大人の約90%の大きさに達します。
+  [画面] 「90% TRƯỚC 6 TUỔI」大テロップ
+3-20s 本体
+  【VN】Giai đoạn 3–6 tuổi là "thời kỳ vàng" của sự tò mò. Mỗi lần bé hỏi
+        "Tại sao?", não bé đang tạo ra hàng nghìn kết nối mới. Khoa học
+        không phải là môn học — mà là cách bé nhìn thế giới.
+  【JP】3〜6歳は好奇心の黄金期。「なぜ？」と聞くたびに脳は何千もの新しい
+        回路を作っています。科学は教科ではなく、世界の見方です。
+  [画面] 「Tại sao?」が画面に増えていく演出
+20-27s 価値
+  【VN】Đừng vội trả lời. Hãy hỏi lại: "Con nghĩ sao?" — đó là bài học
+        khoa học đầu tiên.
+  【JP】すぐ答えないで。「あなたはどう思う？」と聞き返す — それが最初の科学の授業。
+キャプション(VN):
+  🧠 Não bé đạt 90% trước 6 tuổi — bạn đang tận dụng thời kỳ vàng chưa?
+  ・3–6 tuổi = thời kỳ vàng của tò mò
+  ・Mỗi câu "Tại sao?" = hàng nghìn kết nối não mới
+  ・Bí quyết: hỏi lại "Con nghĩ sao?"
+  Bé nhà bạn hay hỏi "Tại sao?" về điều gì? Kể cho mình nghe nhé!
+  #GeniusScience #giaoducsom #nuoidayconthongminh #khoahoccotre #STEM
+
+────────────────────────────
+台本02｜柱A｜30秒おうち実験: 浮く？沈む？(講座P5連動)
+────────────────────────────
+0-3s フック
+  【VN】Quả trứng này sẽ nổi hay chìm? Đoán thử xem!
+  【JP】この卵、浮く？沈む？当ててみて！
+  [画面] 卵を水の上でホールド。「NỔI hay CHÌM?」
+3-20s 本体
+  【VN】Thả vào nước thường — chìm! Nhưng thêm 3 thìa muối, khuấy đều…
+        và nhìn này — trứng nổi lên! Vì nước muối "đặc" hơn, đẩy trứng
+        lên mạnh hơn. Đây là lý do chúng ta nổi dễ hơn ở biển!
+  【JP】真水では沈む！でも塩を大さじ3杯入れて混ぜると…ほら、浮いた！
+        塩水は「濃い」から押し上げる力が強い。海で体が浮きやすいのも同じ理由！
+  [画面] 実験実写。「+3 thìa muối」→浮上の瞬間をスロー
+20-27s 価値
+  【VN】5 phút, 1 quả trứng, 1 bài học vật lý. Khoa học ở ngay trong bếp
+        nhà bạn.
+  【JP】5分・卵1個で物理の授業。科学はあなたの台所にあります。
+キャプション(VN):
+  🥚 Thí nghiệm 5 phút: trứng nổi hay chìm?
+  ・Nước thường → chìm / Nước muối → nổi
+  ・Bé học về mật độ mà không cần sách
+  ・Thử ngay tối nay và quay lại kết quả nhé!
+  #GeniusScience #thinghiemtainha #khoahocvui #STEM #daycon
+
+────────────────────────────
+台本03｜柱B｜「なぜ？」に答えない子育て術(モンテッソーリ)
+────────────────────────────
+0-3s フック
+  【VN】Khi con hỏi "Tại sao?", cha mẹ thông thái KHÔNG trả lời ngay.
+  【JP】子どもが「なぜ？」と聞いたとき、賢い親はすぐに答えません。
+  [画面] 「ĐỪNG trả lời ngay!」
+3-20s 本体
+  【VN】3 bước theo phương pháp Montessori: Một — hỏi lại: "Con nghĩ sao?".
+        Hai — cùng thử: "Mình làm thử xem nhé?". Ba — cùng tra cứu:
+        "Mình tìm hiểu cùng nhau nào". Câu trả lời không quan trọng bằng
+        hành trình đi tìm nó.
+  【JP】モンテッソーリ式3ステップ: ①聞き返す「どう思う？」②一緒に試す
+        「やってみようか」③一緒に調べる「一緒に探そう」。
+        答えより、答えを探す旅が大事。
+  [画面] 「1 HỎI LẠI / 2 CÙNG THỬ / 3 CÙNG TRA CỨU」
+20-27s 価値
+  【VN】Trẻ được "cùng suy nghĩ" sẽ thành người lớn biết tự suy nghĩ.
+  【JP】「一緒に考えてもらった」子は、自分で考えられる大人になります。
+キャプション(VN):
+  💡 Con hỏi "Tại sao?" — bạn trả lời ngay hay hỏi lại?
+  ・Bước 1: "Con nghĩ sao?"
+  ・Bước 2: "Mình thử xem nhé?"
+  ・Bước 3: "Cùng tìm hiểu nào!"
+  Bạn thường làm bước nào? Comment nhé!
+  #GeniusScience #montessori #nuoidayconthongminh #kynangsong #daycon
+
+────────────────────────────
+台本04｜柱C｜靴をそろえる — 日本式マナーの入口
+────────────────────────────
+0-3s フック
+  【VN】Ở Nhật, trẻ 3 tuổi đã làm điều này mỗi ngày — chỉ mất 3 giây.
+  【JP】日本では3歳の子が毎日していること — たった3秒です。
+  [画面] 玄関で靴をそろえる子どもの手元
+3-20s 本体
+  【VN】Xếp gọn đôi giày, mũi hướng ra ngoài. Hành động nhỏ này dạy bé
+        3 điều: sự chu đáo với người sau, thói quen ngăn nắp, và sự
+        "chuyển đổi" — bước vào nhà với tâm thế mới. Không cần la mắng,
+        chỉ cần cha mẹ làm mẫu mỗi ngày.
+  【JP】靴をそろえ、つま先を外へ。この小さな行動が教えるのは3つ:
+        次の人への心配り、整頓の習慣、そして家に入る「切り替え」。
+        叱らなくていい。親が毎日やって見せるだけ。
+  [画面] 「1 CHU ĐÁO / 2 NGĂN NẮP / 3 CHUYỂN ĐỔI」
+20-27s 価値
+  【VN】Lễ nghi không phải của riêng nước Nhật — đó là "hộ chiếu" để con
+        tự tin ở bất cứ đâu trên thế giới.
+  【JP】マナーは日本のものではなく、世界のどこでも通用する子の「パスポート」。
+キャプション(VN):
+  👟 3 giây mỗi ngày — thói quen nhỏ, nhân cách lớn
+  ・Xếp giày = chu đáo + ngăn nắp + chuyển đổi tâm thế
+  ・Bí quyết: cha mẹ làm mẫu, không cần nhắc nhở
+  ・Chuẩn mực toàn cầu bắt đầu từ cửa nhà bạn
+  #GeniusScience #lenghi #daoduc #kieuNhat #daycon #kynangsong
+
+────────────────────────────
+台本05｜柱D｜3つの貯金箱 — 5歳からのお金教育
+────────────────────────────
+0-3s フック
+  【VN】Trẻ 5 tuổi đã có thể học quản lý tiền — bằng 3 chiếc hộp.
+  【JP】5歳からお金の管理は学べます — 箱3つで。
+  [画面] 3つの箱「TIÊU / TIẾT KIỆM / CHO ĐI」
+3-20s 本体
+  【VN】Hộp 1 — TIÊU: mua thứ con muốn. Hộp 2 — TIẾT KIỆM: để dành cho
+        mục tiêu lớn hơn. Hộp 3 — CHO ĐI: giúp đỡ người khác. Khi có
+        tiền lì xì hay tiền thưởng, để bé TỰ chia vào 3 hộp. Quyền quyết
+        định chính là bài học.
+  【JP】箱1「つかう」欲しいものに。箱2「ためる」大きな目標に。
+        箱3「ゆずる」誰かを助けるために。お年玉やご褒美は子ども自身に
+        3つへ分けさせる。決める権利こそが授業。
+  [画面] お金を3箱に分ける子どもの手
+20-27s 価値
+  【VN】Không phải số tiền — mà là thói quen "chia trước khi tiêu" sẽ
+        theo con cả đời.
+  【JP】金額ではなく「使う前に分ける」習慣が一生の財産になります。
+キャプション(VN):
+  💰 3 chiếc hộp thay đổi tương lai tài chính của con
+  ・TIÊU – TIẾT KIỆM – CHO ĐI
+  ・Bé tự quyết định cách chia = bài học lớn nhất
+  ・Bắt đầu từ tiền lì xì gần nhất nhé!
+  Nhà bạn đã dạy con về tiền chưa? Chia sẻ kinh nghiệm nhé!
+  #GeniusScience #giaoductaichinh #daycontieutien #nuoidayconthongminh
+
+────────────────────────────
+台本06｜柱C｜「いただきます」の心 — 食への感謝
+────────────────────────────
+0-3s フック
+  【VN】Vì sao trẻ em Nhật chắp tay nói một câu trước MỖI bữa ăn?
+  【JP】なぜ日本の子どもは毎食前に手を合わせて一言いうの？
+  [画面] 「ITADAKIMASU = ?」
+3-20s 本体
+  【VN】"Itadakimasu" nghĩa là "Con xin nhận sự sống này". Cảm ơn cây lúa,
+        cảm ơn chú nông dân, cảm ơn mẹ đã nấu. Ở Việt Nam mình cũng có
+        lời mời cơm đầy lễ phép. Trước bữa ăn, hãy cùng bé kể: món này
+        từ đâu đến? Ai đã làm ra nó?
+  【JP】「いただきます」は「命をいただきます」という意味。稲に、農家さんに、
+        作ってくれたお母さんに感謝。ベトナムにも丁寧な「お誘いの挨拶
+        (mời cơm)」がありますね。食前に「この料理はどこから来た？誰が
+        作った？」と子どもと話してみて。
+  [画面] ごはん→稲→農家→母の逆再生風カット
+20-27s 価値
+  【VN】Lòng biết ơn không dạy bằng lời mắng — mà bằng 10 giây trước bữa ăn
+        mỗi ngày.
+  【JP】感謝の心は叱って教えるものではなく、毎日の食前10秒で育つもの。
+キャプション(VN):
+  🍚 "Itadakimasu" — bài học biết ơn 10 giây mỗi ngày
+  ・Cảm ơn sự sống, người trồng, người nấu
+  ・Kết hợp với nét đẹp "mời cơm" của Việt Nam
+  ・Hỏi bé: món này từ đâu đến?
+  #GeniusScience #daoduc #lenghi #daycon #netvanhoa
+
+────────────────────────────
+台本07｜柱A×E｜メコン川は天然の理科教室(講座G3連動)
+────────────────────────────
+0-3s フック
+  【VN】Vì sao nước sông Mekong có màu nâu? Không phải vì bẩn đâu!
+  【JP】メコン川の水はなぜ茶色？汚れているからではありません！
+  [画面] メコン川の空撮。「KHÔNG phải vì bẩn!」
+3-20s 本体
+  【VN】Màu nâu đó là phù sa — hàng triệu hạt đất mịn được dòng sông mang
+        từ núi cao về. Chính phù sa này bồi đắp nên Đồng bằng sông Cửu
+        Long — vựa lúa nuôi cả nước. Thí nghiệm tại nhà: khuấy đất vào
+        cốc nước, để yên và xem các lớp lắng xuống!
+  【JP】あの茶色は沖積土(フーサ)。川が高い山から運んだ何百万もの細かい土。
+        それが国を養う米どころ・メコンデルタを作った。おうち実験:
+        コップの水に土を混ぜて置いておくと、層になって沈むのが見えます！
+  [画面] 実験カット(地層ボトル)
+20-27s 価値
+  【VN】Dạy con yêu Việt Nam — bắt đầu từ việc hiểu vì sao đất nước mình
+        tuyệt vời như vậy.
+  【JP】ベトナムを愛する子に — まず「なぜ自分の国がすごいのか」を理解する
+        ことから。
+キャプション(VN):
+  🌊 Màu nâu của Mekong = món quà từ núi cao
+  ・Phù sa bồi đắp nên vựa lúa Cửu Long
+  ・Thí nghiệm lắng đọng ngay tại nhà
+  ・Khoa học + tự hào Việt Nam trong 30 giây
+  #GeniusScience #tuhaovietnam #khoahocvui #thinghiemtainha #mekong
+
+────────────────────────────
+台本08｜柱D｜「欲しい」と「必要」— スーパーでできるお金教育
+────────────────────────────
+0-3s フック
+  【VN】Ở siêu thị, một câu hỏi này giúp con bạn giỏi quản lý tiền cả đời.
+  【JP】スーパーでのある一言が、子どもを一生お金上手にします。
+  [画面] 「MUỐN hay CẦN?」
+3-20s 本体
+  【VN】Khi bé đòi mua đồ, đừng nói "Không" ngay. Hãy hỏi: "Cái này con
+        MUỐN hay con CẦN?". Cần = không có thì sinh hoạt khó khăn.
+        Muốn = có thì vui. Muốn không xấu! Nhưng biết phân biệt là bước
+        đầu của mọi quyết định tài chính.
+  【JP】欲しがったらすぐ「ダメ」と言わず、「それは欲しいもの？必要なもの？」
+        と聞く。必要=ないと生活に困る。欲しい=あると嬉しい。欲しいは悪く
+        ない！でも区別できることが、あらゆるお金の判断の第一歩。
+  [画面] 商品を手に考える子。「CẦN?」「MUỐN?」の仕分けアニメ
+20-27s 価値
+  【VN】Mỗi lần đi siêu thị là một buổi học tài chính miễn phí.
+  【JP】スーパーに行くたびが、無料のお金の授業です。
+キャプション(VN):
+  🛒 "Muốn hay Cần?" — câu hỏi vàng ở siêu thị
+  ・Cần = thiết yếu / Muốn = niềm vui
+  ・Muốn không xấu, nhưng phải biết phân biệt
+  ・Thử ngay lần đi chợ tới nhé!
+  #GeniusScience #giaoductaichinh #daycontieutien #daycon
+
+────────────────────────────
+台本09｜柱B｜失敗は実験 — 試行錯誤する子の育て方(講座XP1連動)
+────────────────────────────
+0-3s フック
+  【VN】Máy bay giấy của bé rơi ngay lập tức? Xin chúc mừng!
+  【JP】お子さんの紙飛行機がすぐ落ちた？おめでとうございます！
+  [画面] 落ちる紙飛行機→「XIN CHÚC MỪNG!」
+3-20s 本体
+  【VN】Vì bé vừa có dữ liệu đầu tiên! Nhà khoa học không nói "thất bại" —
+        họ nói "kết quả". Hãy hỏi bé: "Lần này khác gì lần trước?",
+        "Thử đổi cách gấp xem?". Sai → thử lại → tốt hơn. Đó chính là
+        tư duy khoa học.
+  【JP】最初のデータが取れたのだから！科学者は「失敗」と言わず「結果」と
+        言います。「前と何が違った？」「折り方を変えてみたら？」と聞いて。
+        間違える→やり直す→良くなる。それが科学的思考。
+  [画面] 「SAI → THỬ LẠI → TỐT HƠN」ループ矢印
+20-27s 価値
+  【VN】Trẻ không sợ sai sẽ dám thử mọi thứ — ở trường, và cả trong cuộc đời.
+  【JP】間違いを恐れない子は何にでも挑戦できる — 学校でも、人生でも。
+キャプション(VN):
+  ✈️ Con thất bại? Đó là "dữ liệu", không phải thất bại!
+  ・Nhà khoa học không nói thất bại, họ nói kết quả
+  ・Câu thần chú: "Lần này khác gì lần trước?"
+  ・Sai → Thử lại → Tốt hơn
+  #GeniusScience #nuoidayconthongminh #kynangsong #STEM #montessori
+
+────────────────────────────
+台本10｜柱A｜魔法の色水 — 紫キャベツで大変身(講座C5連動)
+────────────────────────────
+0-3s フック
+  【VN】Nước bắp cải tím + chanh = phép thuật! Xem màu đổi ngay trước mắt.
+  【JP】紫キャベツの水+ライム=魔法！目の前で色が変わります。
+  [画面] 紫→ピンクに変わる瞬間(冒頭に結果を見せる)
+3-20s 本体
+  【VN】Bắp cải tím thái nhỏ, ngâm nước — được "nước thần" màu tím. Vắt
+        chanh vào: chuyển HỒNG! Thêm chút xà phòng: chuyển XANH! Vì nước
+        bắp cải đổi màu theo tính axit hay kiềm. Bé 5 tuổi cũng làm được,
+        với sự giám sát của bố mẹ.
+  【JP】刻んだ紫キャベツを水に浸ければ紫の「魔法の水」。ライムを搾ると
+        ピンクに！石けんを少し入れると青に！酸性・アルカリ性で色が変わる
+        から。5歳でも親の見守りがあればできます。
+  [画面] 3色の変化を並べて見せる
+20-27s 価値
+  【VN】Đừng nói "hóa học khó lắm" — hãy để bé thấy hóa học đẹp thế nào.
+  【JP】「化学は難しい」と言う前に、化学がどれだけ美しいか見せてあげて。
+キャプション(VN):
+  🌈 Phép thuật từ 1/4 cây bắp cải tím
+  ・Chanh → hồng / Xà phòng → xanh
+  ・Bài học axit – kiềm đầu tiên của bé
+  ・Lưu lại để cuối tuần làm cùng con nhé!
+  #GeniusScience #thinghiemtainha #khoahocvui #STEM #daycon
+
+────────────────────────────
+(第1弾ここまで。第2弾は配信データの反応を見て、伸びた柱を厚めに作成する)

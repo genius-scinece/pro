@@ -1,0 +1,70 @@
+# 曜日ごとのテーマ設定(0=月曜 〜 6=日曜)
+# generate_posts.py がこのファイルを読み、当日のテーマで投稿を生成する
+
+brand:
+  name: "Gieo Hạt"
+  founders: "Park Teo (Hàn Quốc) & Aki (Nhật Bản)"
+  voice: >
+    温かく、誠実で、押し付けない。上から教えるのではなく「一緒に考えよう」と誘う。
+    ベトナムへの愛と敬意が土台。読者が自分の人生を良くするきっかけを届ける。
+
+weekdays:
+  0:  # 月曜
+    theme: T4-活動レポート
+    mode: template   # 実際の写真・事実が必要なため、キャプションの「雛形」だけ生成する
+    description: >
+      孤児院訪問・井戸建設・学校支援などの活動レポート投稿の雛形。
+      写真・日付・場所・内容は人間が実物で埋める前提のプレースホルダー付き。
+    channels: [Facebook]
+  1:  # 火曜
+    theme: T5-お金の授業
+    mode: full
+    description: >
+      「Bài học 1 phút về tiền(1分のお金の授業)」シリーズ。
+      貯める力・守る力・使う力が範囲。予算管理、給料の分け方、緊急資金、複利の考え方、
+      家計の見直し、浪費と投資の違い、子どもへのお金の教育など。
+      投資商品の選び方・銘柄・トレード手法は絶対に扱わない。
+    channels: [TikTok, Instagram Reels]
+  2:  # 水曜
+    theme: T6-生き方
+    mode: full
+    description: >
+      仏教的な教え(足るを知る、無常、感謝、執着を手放す)、習慣、メンタル、
+      考え方、自己成長。説教ではなく、静かに考えさせる文章。
+      ベトナムの読者の日常(仕事、家族、SNS疲れ)に引き付ける。
+    channels: [Facebook, Instagram]
+  3:  # 木曜
+    theme: T5-詐欺対策 / T1-日韓
+    mode: full
+    description: >
+      週替わりで交互に:
+      (A)「Đó có thể là lừa đảo(それ、詐欺かも)」— 投資詐欺・マルチ・ロマンス詐欺・
+      なりすましの手口と見分け方。「確実に儲かる話は全て疑え」が核メッセージ。
+      (B)「Người Nhật / Người Hàn làm gì?」— 日本・韓国の貯蓄文化、働き方、習慣、
+      面白い違い。外国から学べることを1つだけ紹介。
+    channels: [TikTok, Instagram Reels]
+  4:  # 金曜
+    theme: T2-ベトナムの素晴らしさ
+    mode: full
+    description: >
+      外国人2人の視点で語るベトナムの魅力。人の温かさ、食文化、家族の絆、
+      街の活気、若者のエネルギー、成長する国の空気。
+      具体的な小さなエピソード(市場で、カフェで、バスで)から始めると良い。
+    channels: [Facebook]
+  5:  # 土曜
+    theme: T2/T6-ショート
+    mode: full
+    description: >
+      「Việt Nam trong mắt tôi(私の目に映るベトナム)」または
+      「Sống chậm lại(少し立ち止まって)」の30秒ショート。
+      感情に訴える、シェアしたくなる内容。
+    channels: [TikTok, Instagram Reels]
+  6:  # 日曜
+    theme: T3-社会課題と希望
+    mode: full
+    description: >
+      ベトナムの農村の教育・きれいな水・機会の格差について、批判ではなく
+      「共に変えられる」という希望のトーンで。具体的な統計を使う場合は
+      出典を明示できるもののみ。使えない場合は数字なしで書く。
+      図解カルーセル(5枚)向けの構成も含める。
+    channels: [Instagram, Facebook]

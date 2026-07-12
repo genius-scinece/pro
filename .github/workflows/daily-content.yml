@@ -1,0 +1,38 @@
+name: Daily SNS Content Generation
+
+on:
+  schedule:
+    # 毎日 21:00 UTC = ベトナム時間(ICT) 朝4:00 に生成 → 朝のレビューに間に合う
+    - cron: "0 21 * * *"
+  workflow_dispatch: {} # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic pyyaml
+
+      - name: Generate today's content
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 節約したい場合はリポジトリ変数 CONTENT_MODEL に claude-haiku-4-5 を設定
+          CONTENT_MODEL: ${{ vars.CONTENT_MODEL || 'claude-opus-4-8' }}
+        run: python social-impact-media/content-engine/generate_posts.py
+
+      - name: Commit generated content
+        run: |
+          git config user.name "content-bot"
+          git config user.email "content-bot@users.noreply.github.com"
+          git add content/queue/
+          git diff --cached --quiet || git commit -m "投稿下書きを自動生成: $(date -u +%Y-%m-%d)"
+          git push
